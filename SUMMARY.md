@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Foreword](README.md)
+* [Welcome to NUTS Finance!](README.md)
+* [Foreword](foreword.md)
 * [Background](background.md)
 * [Project Definition](project-definition.md)
 * [User Cases](user-cases/README.md)
@@ -18,6 +19,9 @@
   * [Interaction - Issuance Engagement](architecture-design/interaction-issuance-engagement.md)
   * [Interaction - Token Transfer](architecture-design/interaction-token-transfer.md)
   * [Interaction - Timer](architecture-design/interaction-timer.md)
+* [FAQ](faq.md)
+* [Appendix A: Key Terms](appendix-a-key-terms.md)
+* [Appendix B: Financial - Blockchain Reference](appendix-b-financial-blockchain-reference.md)
 * [Development Plan](development-schedule.md)
 * [Testing Plan](testing-plan/README.md)
   * [Unit Test Plan](testing-plan/unit-test-plan.md)
@@ -26,6 +30,4 @@
     * [Loan Contract](testing-plan/integration-test-plan/loan-contract.md)
     * [Timer Oracle](testing-plan/integration-test-plan/timer-oracle.md)
   * [TestNet Testing Plan](testing-plan/testnet-testing-plan.md)
-* [Appendix A: Key Terms](appendix-a-key-terms.md)
-* [Appendix B: Financial - Blockchain Reference](appendix-b-financial-blockchain-reference.md)
 
