@@ -6,5 +6,9 @@ description: Project Foreword
 
 Here are some helpful links to get started:
 
+[FAQ](https://docs.nuts.finance/faq)
+
+
+
 
 
