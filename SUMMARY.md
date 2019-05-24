@@ -1,5 +1,38 @@
 # Table of contents
 
-* [Initial page](README.md)
-* [Glossary](glossary.md)
+* [Foreword](README.md)
+* [Background](background.md)
+* [Project Definition](project-definition.md)
+* [User Cases](user-cases/README.md)
+  * [NUTS - Financial Instruments](user-cases/nuts-financial-instruments.md)
+  * [NUTS - Issuance](user-cases/nuts-financial-issuance.md)
+  * [ACoconut - Loan Contract](user-cases/use-case-loan-contract.md)
+  * [ACoconut - Lockup Contract](user-cases/acoconut-lockup-contract.md)
+  * [ACoconut - PIPE Contract](user-cases/acoconut-pipe-contract.md)
+  * [ACoconut - ESOP Contract](user-cases/acoconut-esop-contract.md)
+* [Non Functional Requirements](non-functional-requirements.md)
+* [Architecture Design](architecture-design/README.md)
+  * [Domain Model](architecture-design/domain-model.md)
+  * [Interaction - Instrument Management](architecture-design/interaction-instrument-management.md)
+  * [Interaction - Issuance Creation](architecture-design/interaction-issuance-creation.md)
+  * [Interaction - Issuance Engagement](architecture-design/interaction-issuance-engagement.md)
+  * [Interaction - Token Transfer](architecture-design/interaction-token-transfer.md)
+  * [Interaction - Timer Oracle](architecture-design/interaction-timer.md)
+* [Development Plan](development-schedule.md)
+* [Testing Plan](testing-plan/README.md)
+  * [Unit Test Plan](testing-plan/unit-test-plan.md)
+  * [Integration Test Plan](testing-plan/integration-test-plan/README.md)
+    * [Instrument Management](testing-plan/integration-test-plan/instrument-management.md)
+    * [Loan Contract](testing-plan/integration-test-plan/loan-contract.md)
+    * [Timer Oracle](testing-plan/integration-test-plan/timer-oracle.md)
+  * [TestNet Testing Plan](testing-plan/testnet-testing-plan.md)
+
+## FAQ
+
+* [Untitled](faq/untitled.md)
+
+## Tech Design
+
+* [Appendix A: Key Terms](tech-design/appendix-a-key-terms.md)
+* [Appendix B: Financial - Blockchain Reference](tech-design/appendix-b-financial-blockchain-reference.md)
 
