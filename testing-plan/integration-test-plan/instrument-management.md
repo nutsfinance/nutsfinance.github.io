@@ -1,6 +1,6 @@
 # Instrument Management
 
-This integration test plan covers two use cases of NUTS platform: [financial instrument management](../../user-cases/nuts-financial-instruments.md) and [issuance creation](../../user-cases/nuts-financial-issuance.md).
+This integration test plan covers two use cases of NUTS platform: [financial instrument management](../../use-cases/nuts-financial-instruments.md) and [issuance creation](../../use-cases/nuts-financial-issuance.md).
 
 Among the test cases below, test case 1 is the success path while the others are about anomaly.
 

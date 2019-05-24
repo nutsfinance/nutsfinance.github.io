@@ -1,6 +1,6 @@
 # Loan Contract
 
-This integration plan covers the use case of the [loan contract](../../user-cases/use-case-loan-contract.md). 
+This integration plan covers the use case of the [loan contract](../../use-cases/use-case-loan-contract.md). 
 
 * Test set 1: Issuance creation\(the instrument must in Active state\)
   * ~~Test case 1: Sellers can create a new issuance of the selected instrument and then deposit Ethers to make the issuance into Engageable state;~~
