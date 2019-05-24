@@ -17,7 +17,7 @@
   * [Interaction - Issuance Creation](architecture-design/interaction-issuance-creation.md)
   * [Interaction - Issuance Engagement](architecture-design/interaction-issuance-engagement.md)
   * [Interaction - Token Transfer](architecture-design/interaction-token-transfer.md)
-  * [Interaction - Timer Oracle](architecture-design/interaction-timer.md)
+  * [Interaction - Timer](architecture-design/interaction-timer.md)
 * [Development Plan](development-schedule.md)
 * [Testing Plan](testing-plan/README.md)
   * [Unit Test Plan](testing-plan/unit-test-plan.md)
@@ -26,13 +26,6 @@
     * [Loan Contract](testing-plan/integration-test-plan/loan-contract.md)
     * [Timer Oracle](testing-plan/integration-test-plan/timer-oracle.md)
   * [TestNet Testing Plan](testing-plan/testnet-testing-plan.md)
-
-## FAQ
-
-* [Untitled](faq/untitled.md)
-
-## Tech Design
-
-* [Appendix A: Key Terms](tech-design/appendix-a-key-terms.md)
-* [Appendix B: Financial - Blockchain Reference](tech-design/appendix-b-financial-blockchain-reference.md)
+* [Appendix A: Key Terms](appendix-a-key-terms.md)
+* [Appendix B: Financial - Blockchain Reference](appendix-b-financial-blockchain-reference.md)
 
