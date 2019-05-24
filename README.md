@@ -1,10 +1,6 @@
----
-description: >-
-  We are building an open technology framework to support the issuance of
-  diversified financial instruments on the Ethereum blockchain.
----
-
 # Welcome to NUTS Finance!
+
+We are building an open technology framework to support the issuance of diversified financial instruments on the Ethereum blockchain.
 
 Here are some helpful links to get started:
 
