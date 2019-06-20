@@ -21,13 +21,7 @@
   * [Interaction - Timer](architecture-design/interaction-timer.md)
 * [FAQ](faq.md)
 * [Development Plan](development-schedule.md)
-* [Testing Plan](testing-plan/README.md)
-  * [Unit Test Plan](testing-plan/unit-test-plan.md)
-  * [Integration Test Plan](testing-plan/integration-test-plan/README.md)
-    * [Instrument Management](testing-plan/integration-test-plan/instrument-management.md)
-    * [Loan Contract](testing-plan/integration-test-plan/loan-contract.md)
-    * [Timer Oracle](testing-plan/integration-test-plan/timer-oracle.md)
-  * [TestNet Testing Plan](testing-plan/testnet-testing-plan.md)
+* [API Reference](api-reference.md)
 
 ## Appendix
 

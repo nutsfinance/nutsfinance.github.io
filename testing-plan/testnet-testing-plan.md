@@ -1,2 +1,0 @@
-# TestNet Testing Plan
-
