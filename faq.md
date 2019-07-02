@@ -32,7 +32,7 @@ The NUTS technology framework is designed to support a vast diversity of financi
 
 In general, we characterize such instruments as non-standard financial instruments. Instruments that fall under such category includes loan, forward contracts and various forms of promissory notes.   
 
-At the initial stage, NUTS technology framework is designed to support the issuance of financial instruments based on ERC20 tokens. Specifically, our standardized modules will support the issuance of \(i\) Crypto loan contracts \(ii\) Crypto forward contracts \(iii\) Crypto lock-up contracts \(iv\) Crypto ESOP contracts.
+At the initial stage, NUTS technology framework is designed to support the issuance of financial instruments based on ERC20 tokens. Specifically, our standardized modules will support the issuance of \(i\) Crypto loan contracts \(ii\) Crypto lock-up contracts \(iii\) Crypto ESOP contracts \(iv\) Crypto PIPE contracts.
 
 ### Who are your target users?
 
