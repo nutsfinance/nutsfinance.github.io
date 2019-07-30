@@ -1,24 +1,29 @@
 # Appendix A: Key Terms
 
-* Financial Service Provider
-* Underwriter
-* Seller
-* Buyer
-* Foundation
-* Financial Instrument
-* Issuance of Financial Instrument
-* Engagement
-* Collateral
-* Initiated
-* Active
-* Complete
-* Delinquent
-* Vesting
-* Financial Market
-* Financial System
-* PIPE
-* ESOP
-* Lock-up
-* Loan
-* Loan-to-Value
+|  |  |
+| :--- | :--- |
+| Financial service providers |  |
+| Underwriter |  |
+| Seller |  |
+| Buyer |  |
+| Foundation |  |
+| Financial instruments |  |
+| Issuance |  |
+| Engagement |  |
+| Collateral |  |
+| Initiated |  |
+| Active |  |
+| Complete |  |
+| Delinquent |  |
+| Vesting |  |
+| PIPE |  |
+| ESOP |  |
+| Lock-up |  |
+| Loan-to-value |  |
+| Stake mining |  |
+| NUTS technology platform |  |
+| Over-the-counter |  |
+| Peer-to-peer market |  |
+|  |  |
+|  |  |
 

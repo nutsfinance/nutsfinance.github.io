@@ -26,5 +26,4 @@
 ## Appendix
 
 * [Appendix A: Key Terms](appendix/appendix-a-key-terms.md)
-* [Appendix B: Financial - Blockchain Reference](appendix/appendix-b-financial-blockchain-reference.md)
 

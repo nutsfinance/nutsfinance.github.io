@@ -9,7 +9,7 @@ description: >-
 
 ### What is NUTS Finance?
 
-NUTS Finance is building an open technology framework to support the issuance of diversified financial instruments on the Ethereum blockchain.
+NUTS Finance a non-profit Foundation focused on building an open technology platform to support the issuance of diversified financial instruments on public blockchains.
 
 ### Why financial services on the blockchain?
 
@@ -44,7 +44,7 @@ With that being said, we believe blockchain technology enables individuals to co
 
 At the initial stage, we will focus our efforts on crypto FSPs since this group is already familiar with the benefits of open finance. As on-chain asset continues to grow through native origination and off-chain migration, we envision our technology solutions to be adopted by all participants in the financial services markets; individuals and businesses, crypto maximalists to Wall Street veterans.  
 
-### What are the benefits for using the NUTS technology framework?
+### What are the benefits for using the NUTS technology platform?
 
 * Modularized - our approach to simplifying the issuance process for complex financial instruments is by modularizing technology solutions in a way that is business objective focused, highly standardized and reusable. This design offers the highest level of flexibility and efficiency for application builders.   
 * Stateful - financial contract states are immutable, discoverable and can be easily managed and analyzed by contract participants.      
@@ -58,9 +58,21 @@ Yes, we will be issuing an ERC20 based utility token.
 
 The primary token economics will be based on direct staking mechanism. Specifically, staking will be tied to the access of the NUTS technology framework; where different participants within the NUTS platform are required to stake NUTS tokens in order to conduct specific functions ranging from issuance, distribution, discovery and exchange of financial instruments. In addition, staking will also be tied to the conditional state of smart contracts, referred to as contract lifecycle. The redeemability of tokens staked in smart contracts is subject to the changing status of financial instruments which are controlled by different roles within the NUTS platform. A successful completion of contract lifecycle would unlock the token balance at stake.
 
-### Would you classify NUTS technology framework as a smart contract platform?
+### **What is your token generation strategy?**
 
-Yes, the NUTS technology framework is a collection of modules comprised of smart contracts.   
+We will adopt a serial token mining strategy for the NUTS Finance project. We believe this approach best aligns interests for all token stakeholders. In addition, we believe a serial token mining approach is the most efficient way to avoid any capital surplus or deficit; a problem we observed from many ICO projects.   
+  
+****We will initiate up to 6 periods of token mining; our decision to adopt stake mining as our token generation strategy was led by three key factors \(i\) Aligning economic incentives with community supporters \(ii\) Aligning token utility value with Financial Service Providers \(iii\) Distributing tokens in a fair and systematic way. For more information on our mining program, please visit [NUTS Stake Mining FAQ](https://app.gitbook.com/@nutsfinance/s/nuts-stake-mining/dapp/faq).
+
+### **What is your token distribution plan?**
+
+The entire NUTS token supply will be distributed using a serial token mining approach. 90% of the total token supply will be distributed to miners. The remaining 10% will be allocated to NUTS Finance Foundation for continuous product development and community building objectives.
+
+### Would you classify NUTS technology **platform** as a smart contract platform?
+
+At the current stage, the NUTS technology platform is a collection of modules comprised of smart contracts.   
+  
+As we continue to introduce open, secure and modularized technology for the open finance community, NUTS Finance will be introducing capabilities ranging from smart contracts to developer tools. For more information on our development roadmap, please visit our [Domain Model](architecture-design/domain-model.md).   
 
 ### Which other blockchain network are you building on?
 
