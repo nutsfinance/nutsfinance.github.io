@@ -4,15 +4,15 @@ description: The scope of the project.
 
 # Project Definition
 
-The project consists of two sub-projects: The NUTS project and the ACoconut project.
+The project consists of two sub-projects: The NUTS Finance project and the ACoconut project.
 
-The NUTS project aims to build a set of Ethereum protocols that:
+The NUTS Finance project is building a financial contract issuance platform; a set of protocols deployed on public blockchain networks that aims to:
 
-* Enable Financial Service Providers to create financial instruments on the blockchain;
-* Enable Sellers to create specific issuances using the financial instruments provided by FSP;
-* Enable Buyers to engage the financial issuance created by Sellers.
+* Enables Financial Service Providers to create financial instruments on the blockchain;
+* Enables Sellers to create specific issuances using the financial instruments provided by FSPs;
+* Enable Buyers to engage financial issuances created by Sellers.
 
-The ACoconut project aims to implement the following financial instruments using the NUTS protocol:
+The ACoconut project aims to implement the following digital financial instruments using the NUTS Technology Platform:
 
 * Loan contract
 * Lock-up contract

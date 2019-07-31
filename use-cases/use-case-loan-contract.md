@@ -18,7 +18,7 @@ The system will allow Sellers to create new loan issuance, and allow Buyers to e
 
 ## Preconditions
 
-* Financial Service Providers have created loan instruments using the NUTS protocol;
+* Financial Service Providers have created loan instruments using the NUTS Technology Platform;
 
 ## Process Flow
 
@@ -37,7 +37,7 @@ The diagram below depicts the process flow of the loan contract. The link to edi
 ### Alternative Process Flow
 
 * If the seller fails to deposit the borrowed token in time, the loan issuance becomes unfunded;
-* If the loan contract expires with no engagement, the loan issuance becomes complete no engagement and will not be available for further engagement;
+* If the loan contract expires with no engagement, the loan issuance becomes complete with no engagement and will not be available for further engagement;
 * If the buyer fails to pay back the borrowed token plus interest, the loan issuance becomes delinquent.
 
 ## Loan States

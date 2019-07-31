@@ -1,8 +1,8 @@
-# NUTS - Issuance
+# NUTS Finance - Issuance
 
 ## Use Case Description
 
-The system will allow sellers to create new issuance of selected financial instrument, using the financial instruments implemented by Financial Service Providers as template. 
+The system will allow sellers to create new issuances of selected financial instruments, using the financial instruments implemented by Financial Service Providers as template. 
 
 ## Open Questions
 
