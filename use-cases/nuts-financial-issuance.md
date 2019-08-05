@@ -27,9 +27,3 @@ The system allows sellers to create new issuances of selected financial instrume
    1. Interactions are done in the NUTS platform directly
 4. OTC
 
-
-
-1. State, lifecycle, discovery --&gt; NUTS token
-2. Escrow
-3. Obiligation token, transfer
-
