@@ -12,7 +12,7 @@ The NUTS Finance project is building a financial contract issuance platform; a s
 * Enables Sellers to create specific issuances using the financial instruments provided by FSPs;
 * Enable Buyers to engage financial issuances created by Sellers.
 
-ACoconut is a standalone Financial Service Provider that aims to implement the following digital financial instruments using the NUTS Technology Platform:
+ACoconut is the initial standalone Financial Service Provider that will offer the following digital financial instruments using the NUTS Technology Platform:
 
 * Loan contract
 * Lock-up contract
