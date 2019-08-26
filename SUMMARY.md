@@ -14,6 +14,7 @@
 * [Non Functional Requirements](non-functional-requirements.md)
 * [Architecture Design](architecture-design/README.md)
   * [Domain Model](architecture-design/domain-model.md)
+  * [Access Control Chain](architecture-design/access-control-chain.md)
   * [Interaction - Instrument Management](architecture-design/interaction-instrument-management.md)
   * [Interaction - Issuance Creation](architecture-design/interaction-issuance-creation.md)
   * [Interaction - Issuance Engagement](architecture-design/interaction-issuance-engagement.md)
