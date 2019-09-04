@@ -2,18 +2,18 @@
 
 ## Use Case Description
 
-The system allows sellers to create new issuances of selected financial instruments, using the financial instruments implemented by FSPs as an initial instrument template. 
+The system allows makers to create new issuances of selected financial instruments, using the financial instruments implemented by FSPs as an initial instrument template. 
 
 ## Actors
 
-* Seller, creator of a specific financial instrument issuance. For example, a seller can create a unique instance of a loan instrument underwritten by Financial Service Provider; 
-* Buyer, engager of the financial instrument issuance created by the Sellers. For instance, a buyer can engage a specific loan instance created by the seller;
+* Maker, who is creator of a specific financial instrument issuance. For example, a maker can create a unique instance of a loan instrument underwritten by Financial Service Provider; 
+* Taker, who is engager of the financial instrument issuance created by the makers. For instance, a taker can engage a specific loan instance created by the maker;
 
 ## Preconditions
 
-* Financial Service Providers have created selected financial instruments using the NUTS Technology Platform;
+* Financial Service Providers have created selected financial instruments on the NUTS Technology Platform;
 
 ## Process Flow
 
-Please refer to the specific Acoconut contracts as a reference.
+* Maker creates new financial instrument issuance using the selected financial instruments created by FSPs;
 
