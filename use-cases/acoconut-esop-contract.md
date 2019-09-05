@@ -8,13 +8,13 @@ description: >-
 
 ## Use Case Description
 
-The system will allow sellers to create new Employee Stock Option Plan \(ESOP\) issuances, and allow buyers to engage existing ESOP issuance.
+The system will allow makers to create new Employee Stock Option Plan \(ESOP\) issuances, and allow takers to engage existing ESOP issuance.
 
 ## Actors
 
-* Seller, who is the asset seller of the ESOP issuance. Usually the Foundation who wants to incentivize employees;
-* Buyer, who is the asset purchaser of the ESOP issuance. Usually the Foundation employee;
-* Timer Oracle, who is an external timer service provider that provides timing information.
+* Maker, who is the asset seller of the ESOP issuance. Usually the Foundation who wants to incentivize employees;
+* Taker, who is the asset purchaser of the ESOP issuance. Usually the Foundation employee;
+* Timer Oracle, who is an external timer service provider that provides timing triggers to the NUTS Technology Platform.
 
 ## Precondition
 
@@ -22,19 +22,20 @@ The system will allow sellers to create new Employee Stock Option Plan \(ESOP\) 
 
 ## Process Flow
 
-![](../.gitbook/assets/nuts-design-diagrams-esop-contract-process-flow.jpg)
+![](../.gitbook/assets/esop-flow-diagram.jpg)
 
 ### Main Process Flow
 
-* Seller creates new issuance of ESOP instrument;
-* Seller deposits the issued token to the ESOP issuance;
-* Buyers engages the ESOP issuance;
-* Seller vests issued tokens according to the vesting schedule;
-* Buyer can withdraw the issued token that is already vested.
+* Maker creates new issuance of ESOP instrument;
+* Maker deposits the issued token to the ESOP issuance;
+* Taker engages the ESOP issuance;
+* Maker vests issued tokens according to the vesting schedule. Taker can withdraw the issued token that is already vested;
+* When the vesting schedule ends, the issuance becomes complete engaged;
+* When the employee service ends before the vesting schedule due, the issuance becomes complete engaged.
 
 ### Alternative Process Flow
 
-* If seller does not deposit the issued token in time, the issuance becomes unfunded;
+* If maker does not deposit the issued token in time, the issuance becomes unfunded;
 * If there is no engagement in time, the issuance completes with no engagement.
 
 ## Issuance States
@@ -42,11 +43,11 @@ The system will allow sellers to create new Employee Stock Option Plan \(ESOP\) 
 Below are the possible states of an ESOP contract:
 
 * Initiated: The ESOP issuance is created;
-* Engageable: The seller deposits the issued token;
-* Active: The buyer engages the ESOP issuance;
+* Engageable: The maker deposits the issued token;
+* Active: The taker engages the ESOP issuance;
 * Complete Engaged: The vesting schedule completes or the employee service ends;
-* Unfunded: The seller fails to deposit the issued token in time;
-* Complete not Engaged: No buyer engages in time;
+* Unfunded: The maker fails to deposit the issued token in time;
+* Complete not Engaged: No taker engages in time;
 
-![](../.gitbook/assets/nuts-design-diagrams-esop-contract-state-diagram.jpg)
+![](../.gitbook/assets/esop-state-diagram.jpg)
 
