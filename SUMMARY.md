@@ -13,6 +13,7 @@
   * [ACoconut - ESOP Contract](use-cases/acoconut-esop-contract.md)
 * [Non Functional Requirements](non-functional-requirements.md)
 * [Architecture Design](architecture-design/README.md)
+  * [Design Principles](architecture-design/design-principles.md)
   * [Domain Model](architecture-design/domain-model.md)
   * [Access Control Chain](architecture-design/access-control-chain.md)
   * [Interaction - Instrument Management](architecture-design/interaction-instrument-management.md)
