@@ -18,5 +18,11 @@ NUTS Platform creates one isolated management domain for each financial instrume
 
 Instrument represents the financial instrument implemented underwritten by FSPs. It is deployed on Ethereum as a standalone smart contract, and then is registered as a financial instrument on NUTS Platform.
 
-Instrument is designed to be stateless, and react to 
+Instrument is designed to be stateless, and react to events from Instrument Manager in order to drive issuance state change.
+
+### Instrument Escrow
+
+Instrument Escrow is singleton in one instrument management domain. It keeps assets that are not locked by issuance, and serves as the portal for any account to deposit and withdraw assets into the instrument management domain. More details about Instrument Escrow can be found in section Instrument Escrow.
+
+### Issuance Escrow
 
