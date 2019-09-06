@@ -2,7 +2,7 @@
 
 The following design principles serve as general practice to address both functional and non-functional requirements of NUTS Platform.
 
-## Instrument-Centered
+## Financial Instrument-Centered
 
 The goal of NUTS Platform is to serve FSPs and help them build marketplace that serves makers and takers. Each marketplace is built on top of one financial instrument, so NUTS Platform should be centered on financial instrument.
 
@@ -31,7 +31,7 @@ Inside financial instruments,
 
 ## Reliability
 
-All data and assert mutation in NUTS Platform should be either of the following cases:
+All data and asset mutation in NUTS Platform should be either of the following cases:
 
 * Triggered by users through NUTS Platform API;
 * Triggered by Oracle through NUTS Platform API.
