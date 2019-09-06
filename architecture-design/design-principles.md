@@ -9,7 +9,7 @@ The goal of NUTS Platform is to serve FSPs and help them build marketplace that 
 * Each financial instrument should form an isolated management domain.
   * All data and assets of one financial instrument are kept and managed in its domain;
   * No cross-domain operation\(if any\) should be allowed without going through NUTS Platform;
-  * Each domain might evolve into an autonomous zone in the future; 
+  * Domain upgrade are currently done by NUTS Platform admin. This might change in the future by shifting each domain into a DAO.
 * The NUTS Platform, minus the isolated domain for individual financial instrument,  should be thin and flexible.
   * NUTS Platform should not hold any financial instrument assets;
   * NUTS Platform should hold minimum data about financial instrument;
