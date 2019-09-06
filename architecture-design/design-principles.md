@@ -1,6 +1,6 @@
 # Design Principles
 
-Below are the general principles adopted in the architecture design of NUTS Technology Platform.
+The following design principles serve as general practice to address both functional and non-functional requirements of NUTS Platform.
 
 ## Instrument-Centered
 
