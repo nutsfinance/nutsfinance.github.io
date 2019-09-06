@@ -33,7 +33,7 @@ Inside financial instruments,
 
 All data and asset mutation in NUTS Platform should be either of the following cases:
 
-* Triggered by users through NUTS Platform API;
+* Triggered by FSPs/makers/takers through NUTS Platform API;
 * Triggered by Oracle through NUTS Platform API.
 
 In a word, no mutation is allowed without going through NUTS Platform API.
