@@ -29,7 +29,6 @@
 * [Stake Mining](stake-mining.md)
 * [Platform Upgrade](platform-upgrade.md)
 * [FAQ](faq.md)
-* [Development Plan](development-schedule.md)
 * [API Reference](api-reference.md)
 
 ## Appendix
