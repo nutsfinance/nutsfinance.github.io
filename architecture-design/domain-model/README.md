@@ -8,7 +8,7 @@ The diagram is an overview of the NUTS Platform domain model.
 
 ![](../../.gitbook/assets/domain-model-overview-2.jpg)
 
-As mentioned in the design principles, each financial instrument forms an isolated management domain that keeps all instrument data and assets. NUTS Platform creates and manages these instrument management domain, and delegates the actual instrument operation to these domain.
+As mentioned in the design principles, each financial instrument forms an isolated management domain that keeps all instrument data and assets. Instrument Registry creates and maintains these instrument management domain, while the actual issuance operations are invoked directly on instrument management domain.
 
 ## Inside Instrument Management Domain
 
