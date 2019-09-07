@@ -12,15 +12,15 @@ As mentioned in the design principles, each financial instrument forms an isolat
 
 ## Inside Instrument Management Domain
 
-NUTS Platform creates one isolated management domain for each financial instrument created on NUTS Platform. Each instrument management domain contains the following key components.
+NUTS Platform creates one isolated management domain for each financial instrument activated on NUTS Platform. Each instrument management domain has two entry points: Instrument Manager, which is the issuance operation entry, and Instrument Escrow, which is the instrument assets entry.
 
 ### Instrument
 
-Instrument represents the financial instrument implemented underwritten by FSPs. It is deployed on Ethereum as a standalone smart contract, and then is registered as a financial instrument on NUTS Platform.
+Instrument represents the financial instrument implemented underwritten by FSPs. It is deployed on Ethereum as a standalone smart contract, and then is activated on NUTS Platform.
 
-Instrument Interfaces, which are designed by NUTS Platform, defines the Instrument model and serves as the interface between Instrument Manager and Instrument implementation. In order to address different complexity and requirements of different financial instruments, NUTS Platform has designed multiple Instrument Interface. One Instrument must implement one of the Instrument Interface.
+Instrument Interfaces, which are designed by NUTS Platform, defines the Instrument model and serves as the interface between Instrument Manager and Instrument implementation. In order to address different complexity and requirements of different financial instruments, NUTS Platform has defined multiple Instrument Interfaces and new Instrument Interfaces might be introduced in the future. One Instrument must implement one of the Instrument Interface.
 
-Instrument is designed to be stateless, and react to events from Instrument Manager in order to drive issuance state change.
+Instrument is designed to be stateless, and reacts to events from Instrument Manager in order to drive issuance state change.
 
 ### Instrument Escrow
 
@@ -40,7 +40,7 @@ Instrument Manager is the core of one instrument management domain. There is onl
 
 * Manage Instrument Escrow and Issuance Escrows;
 * Manage issuance data;
-* Delegate issuance operations from Issuance Registry to Instrument.
+* Delegate issuance operations to Instrument.
 
 The Instrument Manager implementation varies depending on the Instrument Interface implemented. Usually there is one Instrument Manager implementation for each Instrument Interface. More details about Instrument Manager can be found in section [Instrument Manager](../instrument-manager/).
 

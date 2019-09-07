@@ -10,9 +10,15 @@ Instrument Manager is the core of a financial instrument management domain. Its 
 
 As NUTS Platform is targeted to become a general financial instrument platform, it should be able to support financial instrument with various complexity and requirements in security, flexibility, ease of development, and etc. Therefore, NUTS Platform has defined multiple Instrument Interface to model the financial instrument and serve as the interface between Instrument Manager and Instrument. 
 
-Currently NUTS Platform supports three Instrument Interface: Instrument v1, Instrument v2, and Instrument v3. Correspondingly, NUTS Platform also provides three Instrument Manager implementation: Instrument Manager v1, Instrument Manager v2, and Instrument Manager v3. They are described in detailed in the sub-pages.
+![](../../.gitbook/assets/instrument-management-domain%20%281%29.jpg)
 
-![](../../.gitbook/assets/instrument-management-domain.jpg)
+Currently NUTS Platform supports three Instrument Interface: Instrument v1, Instrument v2, and Instrument v3. Correspondingly, NUTS Platform also provides three Instrument Manager implementation: Instrument Manager v1, Instrument Manager v2, and Instrument Manager v3. Details about these Instrument Managers are discussed in following pages.
+
+|  | Instrument V1 | Instrument V2 | Instrument V3 |
+| :--- | :--- | :--- | :--- |
+| Data Strategy | Treats issuance data as a single string | Stores issuance data in a storage contract | Stores issuance data in proxy contract |
+| Security | High | Medium | Low |
+| Scenario | When issuance data is smaller, and implemented by untrusted source. | When issuance data is medium | When issuance data is large and requires more flexibility; suitable for trusted source. |
 
 ## Instrument Interface
 
@@ -56,5 +62,6 @@ Instrument Manager can perform the following assets operations:
 
 * When makers/takers deposit ETH/ERC20 tokens to issuance, Instrument Manager transfers ETH/ERC20 tokens from Instrument Escrow to the targeted Issuance Escrow;
 * When makers/transfer withdraws ETH/ERC20 tokens from issuance, Instrument Manager transfers ETH/ERC20 tokens from Issuance Escrow to Instrument Escrow;
-* When certain issuance state is met, issuance might want to change ownership of an asset inside the Issuance Escrow. Instrument Manager 
+* When certain issuance state is met, issuance might want to change ownership of an asset inside the Issuance Escrow. Instrument Manager complete this on behalf of issuance;
+* When certain issuance state is met, issuance might want to transfer ETH/ERC20 tokens to other accounts. Instrument Manager transfers ETH/ERC20 tokens from Issuance Escrow to Instrument Escrow.
 
