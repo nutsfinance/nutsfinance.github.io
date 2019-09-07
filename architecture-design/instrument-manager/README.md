@@ -48,5 +48,13 @@ Instrument Manager Interface defines additional method in addition to issuance o
 
 Different Instrument Manager implementations differ in issuance data management but share the same issuance asset management logic.
 
+The assets in an instrument management domain are split into two different kinds of escrows: Instrument Escrow and Issuance Escrow. Instrument Escrow serves as the asset portal of the instrument management domain. Makers/Takers should deposit/withdraw ETH/ERC20 tokens to the Instrument Escrow. Issuance Escrow keeps assets that are locked in an issuance.
 
+Instrument Manager is the owner of all escrows in an instrument management domain. An issuance, similar to any other account, has read access to the Issuance Escrow so that it could check the balance of individual issuance participant. In order to maximize asset security of issuance, only Instrument Manager can deposit/withdraw from an Issuance Escrow. Issuance tells Instrument Manager the desired transfer action to be done, and Instrument Manager completes the transfers on behalf of issuance.
+
+Instrument Manager can perform the following assets operations:
+
+* When makers/takers deposit ETH/ERC20 tokens to issuance, Instrument Manager transfers ETH/ERC20 tokens from Instrument Escrow to the targeted Issuance Escrow;
+* When makers/transfer withdraws ETH/ERC20 tokens from issuance, Instrument Manager transfers ETH/ERC20 tokens from Issuance Escrow to Instrument Escrow;
+* When certain issuance state is met, issuance might want to change ownership of an asset inside the Issuance Escrow. Instrument Manager 
 
