@@ -2,7 +2,7 @@
 
 The diagram below depicts the access control topology in NUTS Platform. In short, the access control from NUTS Platform to FSP and maker are implemented by NUTS Platform, while the access control from FSP to maker and from maker to taker are implemented in instrument.
 
-![](../.gitbook/assets/access-control-1.jpg)
+![](../.gitbook/assets/access-control-2.jpg)
 
 ## NUTS Platform to FSP
 
