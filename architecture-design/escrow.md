@@ -4,6 +4,8 @@ NUTS Platform, minus instrument management domain, does not keep any asset excep
 
 Each instrument management domain provides two kinds of escrows: Instrument Escrow, which serves as the asset portal of this instrument, and Issuance Escrow, which manages assets for individual issuance. They are all created by Instrument Manager, which is the owner of these escrows.
 
+![Escrow Model](../.gitbook/assets/escrow-model.jpg)
+
 |  | Instrument Escrow | Issuance Escrow |
 | :--- | :--- | :--- |
 | Creation | Created when instrument is created | Created when issuance is created |
@@ -14,6 +16,8 @@ Each instrument management domain provides two kinds of escrows: Instrument Escr
 ## Common Functionality
 
 The following functionalities are shared between Instrument Escrow and Issuance Escrow.
+
+![](../.gitbook/assets/escrow-common-functionalities.jpg)
 
 For any account, they can:
 
@@ -53,12 +57,18 @@ The following functionalities, in addition to the shared functionalities between
 
 The Issuance Escrow is created along with individual issuance to keep assets locked by issuance. 
 
-Users/Issuances cannot deposit directly to/withdraw directly from Issuance Escrow; only Instrument Manager can do that. 
+Users/Issuances cannot deposit directly to/withdraw directly from Issuance Escrow; only Instrument Manager can do that. In short, instruments tells Instrument Manager what is the expected transfer to apply, then Instrument Manager complete the transfer on behalf of instrument.
 
-The following functionalities, in addition to the shared functionalities between instrument escrow and issuance escrow, are supported for Instrument Manager:
+For example, assume that an issuance wants to transfer 5 ETH of account A from Issuance Escrow to Instrument Escrow. In its return value, Instrument tells Instrument Manager this desired transfer action to take for the current issuance. Instrument Manager first withdraws 5 ETH from the corresponding Issuance Escrow, and then deposits this 5 ETH into Instrument Escrow. After this transfer, this 5 ETH is under account A's balance in Instrument Escrow, which means account A can withdraw it any time.
+
+![](../.gitbook/assets/escrow-interaction.jpg)
+
+This transfer mechanism allows Instrument to perform asset transfers without taking direct actions to Issuance Escrow. While it's still Instrument's responsibility to ensure the desired transfer is legit, NUTS Platform ensures that Issuance Escrow is tempered with by Instruments.
+
+As a summary, the following functionalities, in addition to the shared functionalities between instrument escrow and issuance escrow, are supported for Instrument Manager:
 
 * Migrate ETH balance from one account to another
 * Migrate ERC20 token balance from one account to another
 
-This allows Instrument Manager to change the ownership of an asset within an Issuance Escrow.
+The later allows Instrument Manager to change the ownership of an asset within an Issuance Escrow.
 
