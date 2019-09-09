@@ -16,7 +16,9 @@ Currently NUTS Platform supports three Instrument Interface: Instrument v1, Inst
 
 |  | Instrument V1 | Instrument V2 | Instrument V3 |
 | :--- | :--- | :--- | :--- |
-| Data Strategy | Treats issuance data as a single string | Stores issuance data in a storage contract | Stores issuance data in proxy contract |
+| Asset Management | Same | Same | Same |
+| Access Control | Same | Same | Same |
+| Data Management | Treats issuance data as a single string | Stores issuance data in a storage contract | Stores issuance data in proxy contract |
 | Security | High | Medium | Low |
 | Scenario | When issuance data is smaller, and implemented by untrusted source. | When issuance data is medium | When issuance data is large and requires more flexibility; suitable for trusted source. |
 

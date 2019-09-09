@@ -2,7 +2,7 @@
 
 Instrument V2 creates a generic key-value storage contract for each issuance. 
 
-![](../../.gitbook/assets/instrument-v2.jpg)
+![](../../.gitbook/assets/instrument-v2-1.jpg)
 
 The Issuance Storage contract support mappings of the following types:
 

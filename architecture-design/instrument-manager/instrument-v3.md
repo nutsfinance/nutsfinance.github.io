@@ -2,7 +2,7 @@
 
 Instrument V3 adopts Proxy contracts to keep issuance data. While traditional Proxy pattern uses Proxy contract to separate logic and storage, Instrument V3 uses Proxy pattern to separate Issuance data.
 
-![](../../.gitbook/assets/instrument-v3.jpg)
+![](../../.gitbook/assets/instrument-v3-1.jpg)
 
 When invoking Instrument methods, Instrument Manager does that through the Proxy contracts which delegates calls to Instrument. Each issuance has a dedicated Proxy which keeps data for that issuance.
 
