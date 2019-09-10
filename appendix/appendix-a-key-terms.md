@@ -1,4 +1,4 @@
-# Appendix A: Key Terms
+# Terminology
 
 |  |  |
 | :--- | :--- |

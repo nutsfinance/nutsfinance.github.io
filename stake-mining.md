@@ -1,4 +1,4 @@
-# Stake Mining
+# Escrow as Stake Mining
 
 NUTS stake mining is performed on a mining pool which consists of assets in NUTS Platform. An asset, which can be ETH or any ERC20 tokens, is considered as assets in NUTS Platform as long as it is in one of the Escrows, including both Instrument Escrows and Issuance Escrows. This means that any account could participant in NUTS stake mining once he deposits assets into Instrument Escrow until they withdraw all their assets.
 

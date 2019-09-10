@@ -28,12 +28,18 @@
   * [Timer Oracle](architecture-design/timer-oracle.md)
   * [Protobuf Solidity Generator](architecture-design/protobuf-solidity-generator.md)
 * [NUTS Token](nuts-token.md)
-* [Stake Mining](stake-mining.md)
+* [Escrow as Stake Mining](stake-mining.md)
 * [Platform Upgrade](platform-upgrade.md)
-* [FAQ](faq.md)
 * [API Reference](api-reference.md)
+
+## FSP Guidebook
+
+* [Untitled](fsp-guidebook/untitled.md)
 
 ## Appendix
 
-* [Appendix A: Key Terms](appendix/appendix-a-key-terms.md)
+* [FAQ](appendix/faq.md)
+* [Terminology](appendix/appendix-a-key-terms.md)
+* [Reference](appendix/reference.md)
+* [Changelog](appendix/changelog.md)
 

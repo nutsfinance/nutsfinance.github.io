@@ -72,7 +72,7 @@ The entire NUTS token supply will be distributed using a serial token mining app
 
 At the current stage, the NUTS technology platform is a collection of modules comprised of smart contracts.   
   
-As we continue to introduce open, secure and modularized technology for the open finance community, NUTS Finance will be introducing capabilities ranging from smart contracts to developer tools. For more information on our development roadmap, please visit our [Domain Model](architecture-design/domain-model/).   
+As we continue to introduce open, secure and modularized technology for the open finance community, NUTS Finance will be introducing capabilities ranging from smart contracts to developer tools. For more information on our development roadmap, please visit our [Domain Model](../architecture-design/domain-model/).   
 
 ### Which other blockchain network are you building on?
 
