@@ -10,13 +10,8 @@ Documenting the business requirements and application design is a critical step 
 
 This project adopts a combination of Rational Unified Process \(RUP\) and agile approach. Emphasis on centralized analysis and design avoid parochial view of the application which might cause signification rework in the later development. With the design in mind, the project is divided into multiple development phase. Each phase is driven by specific user stories and embrace common agile practice, such as emphasis on testing and control over project complexities.
 
-Here are some helpful links to get started:
-
-[FAQ](https://docs.nuts.finance/faq)
-
-[Use Cases](https://docs.nuts.finance/use-cases)
-
-[Architecture Design](https://docs.nuts.finance/architecture-design)
+You can navigate by Table of Content or jump to below interested topics:  
+[FAQ](https://docs.nuts.finance/faq) / [Use Cases](https://docs.nuts.finance/use-cases) / [Architecture Design](https://docs.nuts.finance/architecture-design)
 
 
 
