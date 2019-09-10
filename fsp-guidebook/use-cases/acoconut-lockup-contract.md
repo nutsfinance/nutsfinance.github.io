@@ -24,7 +24,7 @@ The system allows makers to create new lockup issuance, and allows takers to eng
 
 The process flow of the Lockup contract is shown below.
 
-![](../.gitbook/assets/lockup-flow-diagram.jpg)
+![](../../.gitbook/assets/lockup-flow-diagram.jpg)
 
 ### Main Process Flow
 
@@ -52,5 +52,5 @@ Below are the possible states of a lockup contract.
 * Complete not Engaged: No taker engages in time;
 * Delinquent: The taker fails to deposit principal token in time.
 
-![](../.gitbook/assets/lockup-state-diagram.jpg)
+![](../../.gitbook/assets/lockup-state-diagram.jpg)
 

@@ -22,7 +22,7 @@ The system will allow makers to create new Employee Stock Option Plan \(ESOP\) i
 
 ## Process Flow
 
-![](../.gitbook/assets/esop-flow-diagram.jpg)
+![](../../.gitbook/assets/esop-flow-diagram.jpg)
 
 ### Main Process Flow
 
@@ -49,5 +49,5 @@ Below are the possible states of an ESOP contract:
 * Unfunded: The maker fails to deposit the issued token in time;
 * Complete not Engaged: No taker engages in time;
 
-![](../.gitbook/assets/esop-state-diagram.jpg)
+![](../../.gitbook/assets/esop-state-diagram.jpg)
 

@@ -24,7 +24,7 @@ The system will allow Makers to create new loan issuance, and allow Takers to en
 
 The diagram below depicts the process flow of the loan contract.
 
-![](../.gitbook/assets/loan-interaction-diagram.jpg)
+![](../../.gitbook/assets/loan-interaction-diagram.jpg)
 
 ### Main Process Flow
 
@@ -54,7 +54,7 @@ Below are the states of a loan contract.
   * The taker fails to deposit the collateral token in time;
   * The taker fails to pay back the borrowed token in full in time.
 
-![](../.gitbook/assets/loan-state-diagram-1.jpg)
+![](../../.gitbook/assets/loan-state-diagram-1.jpg)
 
 
 

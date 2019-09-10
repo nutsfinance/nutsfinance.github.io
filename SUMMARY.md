@@ -1,16 +1,10 @@
 # Table of contents
 
-* [Welcome to NUTS Finance!](README.md)
-* [Foreword](foreword.md)
+* [Foreword](README.md)
 * [Background](background.md)
 * [Project Definition](project-definition.md)
-* [Use Cases](use-cases/README.md)
-  * [NUTS Finance - Financial Instruments](use-cases/nuts-financial-instruments.md)
-  * [NUTS Finance - Issuance](use-cases/nuts-financial-issuance.md)
-  * [ACoconut - Loan Contract](use-cases/use-case-loan-contract.md)
-  * [ACoconut - Lockup Contract](use-cases/acoconut-lockup-contract.md)
-  * [ACoconut - PIPE Contract](use-cases/acoconut-pipe-contract.md)
-  * [ACoconut - ESOP Contract](use-cases/acoconut-esop-contract.md)
+* [NUTS Finance - Financial Instruments](nuts-financial-instruments.md)
+* [NUTS Finance - Issuance](nuts-financial-issuance.md)
 * [Non Functional Requirements](non-functional-requirements.md)
 * [Architecture Design](architecture-design/README.md)
   * [Design Principles](architecture-design/design-principles.md)
@@ -28,13 +22,18 @@
   * [Timer Oracle](architecture-design/timer-oracle.md)
   * [Protobuf Solidity Generator](architecture-design/protobuf-solidity-generator.md)
 * [NUTS Token](nuts-token.md)
-* [Escrow as Stake Mining](stake-mining.md)
 * [Platform Upgrade](platform-upgrade.md)
 * [API Reference](api-reference.md)
 
 ## FSP Guidebook
 
-* [Untitled](fsp-guidebook/untitled.md)
+* [Principals](fsp-guidebook/principals.md)
+* [Use Cases](fsp-guidebook/use-cases/README.md)
+  * [ACoconut - Loan Contract](fsp-guidebook/use-cases/use-case-loan-contract.md)
+  * [ACoconut - Lockup Contract](fsp-guidebook/use-cases/acoconut-lockup-contract.md)
+  * [ACoconut - PIPE Contract](fsp-guidebook/use-cases/acoconut-pipe-contract.md)
+  * [ACoconut - ESOP Contract](fsp-guidebook/use-cases/acoconut-esop-contract.md)
+* [Escrow as Stake Mining](fsp-guidebook/stake-mining.md)
 
 ## Appendix
 

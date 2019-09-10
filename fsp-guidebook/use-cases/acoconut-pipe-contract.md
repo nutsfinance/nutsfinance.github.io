@@ -22,7 +22,7 @@ The system will allow makers to create new Private Investment in Public Equity \
 
 ## Process Flow
 
-![](../.gitbook/assets/pipe-flow-diagram.jpg)
+![](../../.gitbook/assets/pipe-flow-diagram.jpg)
 
 ### Main Process Flow
 
@@ -50,5 +50,5 @@ Below are the possible states of a PIPE contract:
 * Complete not Engaged: No taker engages in time;
 * Delinquent: The taker fails to deposit fundraised token in time.
 
-![](../.gitbook/assets/pipe-state-diagram.jpg)
+![](../../.gitbook/assets/pipe-state-diagram.jpg)
 
