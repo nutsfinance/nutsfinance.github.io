@@ -21,9 +21,15 @@
     * [Instrument V3](architecture-design/instrument-manager/instrument-v3.md)
   * [Timer Oracle](architecture-design/timer-oracle.md)
   * [Protobuf Solidity Generator](architecture-design/protobuf-solidity-generator.md)
-* [NUTS Token](nuts-token.md)
 * [Platform Upgrade](platform-upgrade.md)
 * [API Reference](api-reference.md)
+* [Untitled](untitled.md)
+
+## NUTS Token Economy
+
+* [NUTS Token](nuts-token-economy/nuts-token.md)
+* [Escrow as Stake Mining](nuts-token-economy/stake-mining.md)
+* [Untitled](nuts-token-economy/untitled.md)
 
 ## FSP Guidebook
 
@@ -33,7 +39,6 @@
   * [ACoconut - Lockup Contract](fsp-guidebook/use-cases/acoconut-lockup-contract.md)
   * [ACoconut - PIPE Contract](fsp-guidebook/use-cases/acoconut-pipe-contract.md)
   * [ACoconut - ESOP Contract](fsp-guidebook/use-cases/acoconut-esop-contract.md)
-* [Escrow as Stake Mining](fsp-guidebook/stake-mining.md)
 
 ## Appendix
 
