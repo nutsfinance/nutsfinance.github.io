@@ -6,7 +6,7 @@ description: The domain model of the NUTS platform.
 
 The diagram is an overview of the NUTS Platform domain model.
 
-![](../../.gitbook/assets/domain-model-overview-2.jpg)
+![](../.gitbook/assets/domain-model-overview-2.jpg)
 
 As mentioned in the design principles, each financial instrument forms an isolated management domain that keeps all instrument data and assets. Instrument Registry creates and maintains these instrument management domain, while the actual issuance operations are invoked directly on instrument management domain.
 
@@ -24,15 +24,15 @@ Instrument is designed to be stateless, and reacts to events from Instrument Man
 
 ### Instrument Escrow
 
-Instrument Escrow is singleton in one instrument management domain. It keeps assets that are not locked by issuance, and serves as the portal for any account to deposit and withdraw assets into the instrument management domain. More details about Instrument Escrow can be found in section [Escrow](../escrow.md).
+Instrument Escrow is singleton in one instrument management domain. It keeps assets that are not locked by issuance, and serves as the portal for any account to deposit and withdraw assets into the instrument management domain. More details about Instrument Escrow can be found in section [Escrow](../implementation/escrow.md).
 
 ### Issuance Escrow
 
-One Issuance Escrow is created for each issuance. It keeps assets that are locked by issuance. Only Instrument Manager can deposit to/withdraw from the Issuance Escrow. Instrument Manager can also change the ownership of assets in the Issuance Escrow. More details about Issuance Escrow can be found in section [Escrow](../escrow.md).
+One Issuance Escrow is created for each issuance. It keeps assets that are locked by issuance. Only Instrument Manager can deposit to/withdraw from the Issuance Escrow. Instrument Manager can also change the ownership of assets in the Issuance Escrow. More details about Issuance Escrow can be found in section [Escrow](../implementation/escrow.md).
 
 ### Issuance Storage
 
-As Instrument is designed to be stateless, issuance data must be kept separately and isolated with each other. Therefore, a dedicated storage is needed for each issuance. The Issuance Storage implementation varies depending on the Instrument Interface implemented. More details about Issuance Storage can be found in section [Instrument Manager](../instrument-manager/).
+As Instrument is designed to be stateless, issuance data must be kept separately and isolated with each other. Therefore, a dedicated storage is needed for each issuance. The Issuance Storage implementation varies depending on the Instrument Interface implemented. More details about Issuance Storage can be found in section [Instrument Manager](../implementation/instrument-manager/).
 
 ### Instrument Manager
 
@@ -42,7 +42,7 @@ Instrument Manager is the core of one instrument management domain. There is onl
 * Manage issuance data;
 * Delegate issuance operations to Instrument.
 
-The Instrument Manager implementation varies depending on the Instrument Interface implemented. Usually there is one Instrument Manager implementation for each Instrument Interface. More details about Instrument Manager can be found in section [Instrument Manager](../instrument-manager/).
+The Instrument Manager implementation varies depending on the Instrument Interface implemented. Usually there is one Instrument Manager implementation for each Instrument Interface. More details about Instrument Manager can be found in section [Instrument Manager](../implementation/instrument-manager/).
 
 ## Outside Instrument Management Domain
 

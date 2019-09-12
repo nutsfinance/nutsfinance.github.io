@@ -5,6 +5,7 @@ Instrument Manager is the core of a financial instrument management domain. Its 
 * Manage issuance assets using Issuance Escrows
 * Manage issuance data using Issuance Storages
 * Manage issuance lifecycle by delegating issuance operations to Instrument
+* Control access to Instruments
 
 ## Instrument Manager Domain Model
 
