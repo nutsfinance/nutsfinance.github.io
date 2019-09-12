@@ -56,5 +56,3 @@ Below are the states of a loan contract.
 
 ![](../../.gitbook/assets/loan-state-diagram-1.jpg)
 
-
-

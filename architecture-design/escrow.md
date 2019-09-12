@@ -42,7 +42,7 @@ Instrument Manager can deposit/withdraw assets for any account so that it could 
 
 ## Instrument Escrow
 
-The Instrument Escrow is created along with the instrument management domain to keep user assets that are not yet locked by issuance. 
+The Instrument Escrow is created along with the instrument management domain to keep user assets that are not yet locked by issuance.
 
 In order to deposit assets to individual issuance, users should deposit assets to Instrument Escrow first, and then invokes NUTS Platform API to transfer assets from Instrument Escrow to Issuance Escrow.
 
@@ -55,7 +55,7 @@ The following functionalities, in addition to the shared functionalities between
 
 ## Issuance Escrow
 
-The Issuance Escrow is created along with individual issuance to keep assets locked by issuance. 
+The Issuance Escrow is created along with individual issuance to keep assets locked by issuance.
 
 Users/Issuances cannot deposit directly to/withdraw directly from Issuance Escrow; only Instrument Manager can do that. In short, instruments tells Instrument Manager what is the expected transfer to apply, then Instrument Manager complete the transfer on behalf of instrument.
 

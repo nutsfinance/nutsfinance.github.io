@@ -27,5 +27,3 @@ FSP implements a new financial instruments according to the selected instrument 
 * NUTS tokens are returned to FSP during deactivation;
 * For expired financial instruments, manual deactivation is required in order to get the deposited NUTS tokens back.
 
-
-

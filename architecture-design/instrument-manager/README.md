@@ -8,9 +8,9 @@ Instrument Manager is the core of a financial instrument management domain. Its 
 
 ## Instrument Manager Domain Model
 
-As NUTS Platform is targeted to become a general financial instrument platform, it should be able to support financial instrument with various complexity and requirements in security, flexibility, ease of development, and etc. Therefore, NUTS Platform has defined multiple Instrument Interface to model the financial instrument and serve as the interface between Instrument Manager and Instrument. 
+As NUTS Platform is targeted to become a general financial instrument platform, it should be able to support financial instrument with various complexity and requirements in security, flexibility, ease of development, and etc. Therefore, NUTS Platform has defined multiple Instrument Interface to model the financial instrument and serve as the interface between Instrument Manager and Instrument.
 
-![](../../.gitbook/assets/instrument-management-domain%20%281%29.jpg)
+![](../../.gitbook/assets/instrument-management-domain-1.jpg)
 
 Currently NUTS Platform supports three Instrument Interface: Instrument v1, Instrument v2, and Instrument v3. Correspondingly, NUTS Platform also provides three Instrument Manager implementation: Instrument Manager v1, Instrument Manager v2, and Instrument Manager v3. Details about these Instrument Managers are discussed in following pages.
 

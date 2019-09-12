@@ -30,5 +30,3 @@ Instrument Manager Factory does not require a Proxy as it's stateless in its nat
 
 Instrument Registry, Deposit Escrow and NUTS Token are all fronted by Proxy and thus all upgradeable. Only NUTS Platform admin can perform the upgrade.
 
-
-

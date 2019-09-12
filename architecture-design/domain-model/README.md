@@ -28,7 +28,7 @@ Instrument Escrow is singleton in one instrument management domain. It keeps ass
 
 ### Issuance Escrow
 
-One Issuance Escrow is created for each issuance. It keeps assets that are locked by issuance. Only Instrument Manager can deposit to/withdraw from the Issuance Escrow. Instrument Manager can also change the ownership of assets in the Issuance Escrow. More details about Issuance Escrow can be found in section [Escrow](../escrow.md). 
+One Issuance Escrow is created for each issuance. It keeps assets that are locked by issuance. Only Instrument Manager can deposit to/withdraw from the Issuance Escrow. Instrument Manager can also change the ownership of assets in the Issuance Escrow. More details about Issuance Escrow can be found in section [Escrow](../escrow.md).
 
 ### Issuance Storage
 

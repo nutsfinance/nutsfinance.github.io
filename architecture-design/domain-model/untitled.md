@@ -2,5 +2,3 @@
 
 ![](../../.gitbook/assets/interaction-instrument-management-2.jpg)
 
-
-

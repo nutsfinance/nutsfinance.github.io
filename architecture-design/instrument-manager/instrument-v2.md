@@ -1,6 +1,6 @@
 # Instrument V2
 
-Instrument V2 creates a generic key-value storage contract for each issuance. 
+Instrument V2 creates a generic key-value storage contract for each issuance.
 
 ![](../../.gitbook/assets/instrument-v2-1.jpg)
 

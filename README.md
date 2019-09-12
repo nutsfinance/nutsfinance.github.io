@@ -13,7 +13,3 @@ This project adopts a combination of Rational Unified Process \(RUP\) and agile 
 You can navigate by Table of Content or jump to below interested topics:  
 [FAQ](https://docs.nuts.finance/faq) / [Use Cases](https://docs.nuts.finance/use-cases) / [Architecture Design](https://docs.nuts.finance/architecture-design)
 
-
-
-
-

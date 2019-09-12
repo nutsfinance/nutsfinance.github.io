@@ -46,5 +46,3 @@ NUTS Platform should be upgradeable in order to both fix bugs and address additi
 * NUTS Platform, minus the instrument management domain, should also be upgradeable;
 * NUTS Platform should be able to introduce new implementation of financial instrument management domain.
 
-
-
