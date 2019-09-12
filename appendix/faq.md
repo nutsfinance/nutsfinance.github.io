@@ -62,7 +62,7 @@ The primary token economics will be based on direct staking mechanism. Specifica
 
 We will adopt a serial token mining strategy for the NUTS Finance project. We believe this approach best aligns interests for all token stakeholders. In addition, we believe a serial token mining approach is the most efficient way to avoid any capital surplus or deficit; a problem we observed from many ICO projects.
 
-_\*\*_We will initiate up to 6 periods of token mining; our decision to adopt stake mining as our token generation strategy was led by three key factors \(i\) Aligning economic incentives with community supporters \(ii\) Aligning token utility value with Financial Service Providers \(iii\) Distributing tokens in a fair and systematic way. For more information on our mining program, please visit [NUTS Stake Mining FAQ](https://app.gitbook.com/@nutsfinance/s/nuts-stake-mining/dapp/faq).
+\_\*\*\_We will initiate up to 6 periods of token mining; our decision to adopt stake mining as our token generation strategy was led by three key factors \(i\) Aligning economic incentives with community supporters \(ii\) Aligning token utility value with Financial Service Providers \(iii\) Distributing tokens in a fair and systematic way. For more information on our mining program, please visit [NUTS Stake Mining FAQ](https://app.gitbook.com/@nutsfinance/s/nuts-stake-mining/dapp/faq).
 
 ## **What is your token distribution plan?**
 
