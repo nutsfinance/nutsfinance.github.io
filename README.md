@@ -10,7 +10,3 @@ Here are some helpful links to get started:
 
 [Architecture Design](https://docs.nuts.finance/architecture-design)
 
-
-
-
-

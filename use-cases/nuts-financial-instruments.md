@@ -24,5 +24,3 @@ None.
 
 * FSP can prematurely deactivate a financial instrument so that no one can create new issuance of this financial instrument.
 
-
-

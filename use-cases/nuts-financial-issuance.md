@@ -2,7 +2,7 @@
 
 ## Use Case Description
 
-The system allows sellers to create new issuances of selected financial instruments, using the financial instruments implemented by FSPs as an initial instrument template. 
+The system allows sellers to create new issuances of selected financial instruments, using the financial instruments implemented by FSPs as an initial instrument template.
 
 ## Actors
 
