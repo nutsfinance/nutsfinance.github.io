@@ -2,10 +2,11 @@
 
 Instrument Manager is the core of a financial instrument management domain. Its main functionalities include:
 
-* Manage issuance assets using Issuance Escrows
-* Manage issuance data using Issuance Storages
-* Manage issuance lifecycle by delegating issuance operations to Instrument
-* Control access to Instruments
+* Manages issuance assets using Issuance Escrows
+* Manages issuance data using Issuance Storages
+* Manages issuance lifecycle by delegating issuance operations to Instrument
+* Controls access to Instruments
+* Provides standardized Oracle services to Instrument
 
 ## Instrument Manager Domain Model
 
