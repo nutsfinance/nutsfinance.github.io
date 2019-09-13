@@ -4,20 +4,31 @@ The following functionalities are shared between Instrument Escrow and Issuance 
 
 ![](../../.gitbook/assets/escrow-common-functionalities.jpg)
 
-For any account, they can:
+The following functions are implemented in both Instrument Escrow and Issuance Escrow and can be invoked by any account:
 
-* Get ETH balance of individual user
-* Get ERC20 token balance of individual user
-* Get the list of ERC20 tokens deposited of individual user
+* getBalance\(address account\)
+  * Get ETH balance of individual user
+* getTokenBalance\(address account, IERC20 token\)
+  * Get ERC20 token balance of individual user
+* getDepositTokens\(address account\)
+  * Get the list of ERC20 tokens deposited of individual user
 
-This means everyone can view the balance information of any other users in both Instrument Escrows and Issuance Escrows.
+This means any account can view the balance information of any other account in both Instrument Escrows and Issuance Escrows.
 
-For the escrow owner\(Instrument Manager\), it can:
+The following functions are implemented in both Instrument Escrow and Issuance Escrow and can be only invoked by owner\(i.e. Instrument Manager\):
 
-* Withdraw ETH for any account
-* Deposit ETH for any account
-* Withdraw ERC20 token for any account
-* Deposit ERC20 token for any account
+* depositByAdmin\(address account\)
+  * ETH is transferred from owner to the escrow
+  * The deposited ETH is added to the account's balance
+* withdrawByAdmin\(address account, uint256 amount\)
+  * ETH is transferred from the escrow to owner
+  * The withdrawn ETH is reduced from the account's balance
+* depositTokenByAdmin\(address account, address token, uint256 amount\)
+  * ERC20 token is transferred from owner to the escrow
+  * The deposited token is added to the account's balance
+* withdrawTokenByAdmin\(address account, address token, uint256 amount\)
+  * ERC20 token is transferred from the escrow to owner
+  * The deposited token is reduced from the account's balance
 
 Instrument Manager can deposit/withdraw assets for any account so that it could implement the following functionalities:
 
