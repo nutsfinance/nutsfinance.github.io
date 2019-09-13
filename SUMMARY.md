@@ -16,6 +16,7 @@
     * [Instrument V1](implementation/instrument-manager/instrument-v1.md)
     * [Instrument V2](implementation/instrument-manager/instrument-v2.md)
     * [Instrument V3](implementation/instrument-manager/instrument-v3.md)
+  * [Instrument Registry](implementation/instrument-registry.md)
   * [Timer Oracle](implementation/timer-oracle.md)
   * [Protobuf Solidity Generator](implementation/protobuf-solidity-generator.md)
   * [Interactions](implementation/interactions/README.md)
@@ -26,8 +27,6 @@
 * [Platform Upgrade](platform-upgrade.md)
 * [Background](background.md)
 * [Project Definition](project-definition.md)
-* [NUTS Finance - Financial Instruments](nuts-financial-instruments.md)
-* [NUTS Finance - Issuance](nuts-financial-issuance.md)
 * [API Reference](api-reference.md)
 
 ## NUTS Token Economy

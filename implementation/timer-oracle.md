@@ -1,5 +1,7 @@
 # Timer Oracle
 
+Instrument Manager aims at providing standardized Oracle services to Instruments. The Timer Oracle service is the first Oracle service introduced.
+
 Issuance state changes are mostly triggered by participant actions. For example, collateral deposits from borrower makes borrow tokens available to borrowers. Sometimes issuance state changes are also driven by time. For example, if there is no collateral deposited within some period, the issuance should be delinquent. Therefore, an Oracle is needed to provide timing information to issuance.
 
 Currently Instrument supports two times of scheduled events:
