@@ -12,6 +12,7 @@
     * [Common Functionalities](implementation/escrow/common-functionalities.md)
     * [Instrument Escrow](implementation/escrow/instrument-escrow.md)
     * [Issuance Escrow](implementation/escrow/issuance-escrow.md)
+    * [Deposit Escrow](implementation/escrow/deposit-escrow.md)
   * [Instrument Manager](implementation/instrument-manager/README.md)
     * [Instrument V1](implementation/instrument-manager/instrument-v1.md)
     * [Instrument V2](implementation/instrument-manager/instrument-v2.md)
