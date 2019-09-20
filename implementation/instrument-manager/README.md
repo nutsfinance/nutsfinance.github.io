@@ -14,9 +14,9 @@ As NUTS Platform is targeted to become a general financial instrument platform, 
 
 ![](../../.gitbook/assets/instrument-management-domain-1.jpg)
 
-Currently NUTS Platform supports three Instrument Interface: Instrument v1, Instrument v2, and Instrument v3. Correspondingly, NUTS Platform also provides three Instrument Manager implementation: Instrument Manager v1, Instrument Manager v2, and Instrument Manager v3. Details about these Instrument Managers are discussed in following pages.
+Currently NUTS Platform supports three Instrument Interface: Instrument Type I, Instrument Type II, and Instrument Type III. Correspondingly, NUTS Platform also provides three Instrument Manager implementation: Instrument Manager Type I, Instrument Manager Type II, and Instrument Manager Type III. Details about these Instrument Managers are discussed in following pages.
 
-|  | Instrument V1 | Instrument V2 | Instrument V3 |
+| Instrument Type | Type I | Type II | Type III |
 | :--- | :--- | :--- | :--- |
 | Asset Management | Same | Same | Same |
 | Access Control | Same | Same | Same |
