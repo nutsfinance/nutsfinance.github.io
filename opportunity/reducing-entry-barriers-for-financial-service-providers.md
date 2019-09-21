@@ -1,4 +1,4 @@
-# Reducing Entry Barriers for Financial Service Providers
+# Reducing Barriers to Entry
 
 The traditional financial system has created tremendous value to the modern economy through the core functions of: 
 
