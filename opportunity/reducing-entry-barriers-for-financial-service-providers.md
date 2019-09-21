@@ -10,10 +10,10 @@ The traditional financial system has created tremendous value to the modern econ
 Mapping the core functions over to the open finance ecosystem, we have witnessed and hypothesized the following:  
 
 * Blockchain networks have expanded the function of value exchange through digital assets
-* Financial service providers will continue to serve the role of intermediation, organizing and facilitating transactions between counterparties  
-* Financial instrument diversity will increase the efficiency in risk transfer functions for all participants 
-* Liquidity will reach a sufficient level in an optimal functioning ecosystem comprised of financial service providers and participants 
+* Financial service providers will continue to play a significant role of intermediation; organizing and facilitating transactions between counterparties 
+* Financial instrument diversity will increase the efficiency in risk transfer functions 
+* Liquidity will reach a sufficient level in an optimal functioning ecosystem comprised of financial service providers and participants
 
-The motivation in reducing the barriers to entry for financial service providers is to stimulate intermediation and liquidity functions in the open finance ecosystem; by introducing plug-and-play technology solutions to support any financial service providers interested in integrating blockchain attributes to their existing workflow.  
+The motivation in reducing the barriers to entry for all financial service providers is to stimulate intermediation and liquidity functions in the open finance ecosystem.  
 
 
