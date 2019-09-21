@@ -12,7 +12,7 @@ Mapping the core functions over to the open finance ecosystem, we have witnessed
 * Blockchain networks have expanded the function of value exchange through digital assets
 * Financial service providers will continue to play a significant role of intermediation; organizing and facilitating transactions between counterparties 
 * Financial instrument diversity will increase the efficiency in risk transfer functions 
-* Liquidity will reach a sufficient level in an optimal functioning ecosystem comprised of financial service providers and participants
+* Liquidity will reach a sufficient level in an optimal functioning ecosystem comprised of financial service providers and participants 
 
 The motivation in reducing the barriers to entry for all financial service providers is to stimulate intermediation and liquidity functions in the open finance ecosystem.  
 

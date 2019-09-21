@@ -1,10 +1,10 @@
 # Financial Instruments Supported
 
-The NUTS Finance platform is a decentralized technology framework capable of supporting issuances of financial instruments characterized by the following attributes:
+The NUTS Finance platform is a decentralized technology platform capable of supporting issuances of financial instruments characterized by the following attributes:
 
 * Exchange frequency of instrument is non-latency sensitive 
 * Instruments possess a natural status lifecycle \(delinquent, defaulted, liquidated, etc.\) 
-* Instrument trades in a peer-to-peer, off-exchange and non-atomic format 
+* Instrument transacts in a peer-to-peer/peer-to-intermediary/peer-to-smart contract, off-exchange and non-atomic format 
 
 In the context of this document, these financial instruments are referred to as non-standardized financial instruments. Instruments that fall under this category includes lending and borrowing, swaps and various forms of promissory notes.
 
