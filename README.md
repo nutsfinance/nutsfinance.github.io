@@ -4,12 +4,17 @@ description: >-
   diversified financial instruments on the Ethereum blockchain.
 ---
 
-# Foreword
+# Introduction
 
-Documenting the business requirements and application design is a critical step in establishing sound communication between the business and the development. While business and development teams vary greatly in terms of conception and methodology, documentation helps both teams to build a common understanding on the key concepts and procedures in the specific business domain \(i.e. domain-driven design\), and facilitates direct communication and prompt feedback. A final document enables management to add or change developers to the project without adversely encroaching on the business requirements.
+Decentralized finance protocols powered by distributed ledger technology and smart contracts has enabled any individuals to access financial services on the blockchain in an open and trustless manner.
 
-This project adopts a combination of Rational Unified Process \(RUP\) and agile approach. Emphasis on centralized analysis and design avoid parochial view of the application which might cause signification rework in the later development. With the design in mind, the project is divided into multiple development phase. Each phase is driven by specific user stories and embrace common agile practice, such as emphasis on testing and control over project complexities.
+As decentralized finance primitives such as decentralized lending, margin trading, exchange and synthetic assets creation continue to test and redefine the financial capabilities of blockchain networks. These new primitives also serve as the building blocks to an open digital financial system; allowing builders to mix and match protocols to create new financial applications. 
 
-You can navigate by Table of Content or jump to below interested topics:  
-[FAQ](https://docs.nuts.finance/faq) / [Use Cases](https://docs.nuts.finance/use-cases) / [Architecture Design](https://docs.nuts.finance/architecture-design)
+From an adoption perspective, two major gaps exist today in the open finance ecosystem:
+
+* Financial instruments used for risk management are extremely limited, which contributes to the proliferation of toxic assets, volatility and irrational speculation behaviours. Subsequently, preventing effective differentiation of asset quality.  
+* Building new applications on top of any DeFi protocols is a rigid process that requires extensive resources and understanding for; blockchain research and development, security measures and finance domain knowledge. As a result, customization can be restricted and the barriers to entry is substantial for any individuals or teams.  
+
+In this document, we introduce a decentralized technology platform for issuing and managing multiple classes of financial instruments on the Ethereum blockchain; empowering all types of financial service providers by simplifying the issuance process, and further enriching instrument diversity on blockchain networks.  
+
 

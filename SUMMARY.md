@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Foreword](README.md)
-* [Introduction](introduction.md)
+* [Introduction](README.md)
 * [Opportunity](opportunity/README.md)
   * [Multiple Classes of Financial Instruments](opportunity/issuance-platform-for-multiple-classes-of-financial-instruments/README.md)
     * [Financial Instruments Supported](opportunity/issuance-platform-for-multiple-classes-of-financial-instruments/financial-instruments-supported.md)
@@ -30,8 +29,6 @@
     * [Interaction - Issuance Engagement](implementation/interactions/interaction-issuance-engagement.md)
     * [Interaction - Token Deposit](implementation/interactions/interaction-token-deposit.md)
 * [Platform Upgrade](platform-upgrade.md)
-* [Background](background.md)
-* [Project Definition](project-definition.md)
 * [API Reference](api-reference.md)
 
 ## NUTS Token Economy
