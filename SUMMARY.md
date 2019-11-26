@@ -16,12 +16,11 @@
     * [Instrument Escrow](implementation/escrow/instrument-escrow.md)
     * [Issuance Escrow](implementation/escrow/issuance-escrow.md)
     * [Deposit Escrow](implementation/escrow/deposit-escrow.md)
-  * [Instrument Manager](implementation/instrument-manager/README.md)
-    * [Instrument Type I](implementation/instrument-manager/instrument-v1.md)
-    * [Instrument Type II](implementation/instrument-manager/instrument-v2.md)
-    * [Instrument Type III](implementation/instrument-manager/instrument-v3.md)
+  * [Instrument Manager](implementation/instrument-manager.md)
   * [Instrument Registry](implementation/instrument-registry.md)
-  * [Timer Oracle](implementation/timer-oracle.md)
+  * [Common Oracles](implementation/timer-oracle/README.md)
+    * [Timer Oracle](implementation/timer-oracle/timer-oracle.md)
+    * [Price Oracle](implementation/timer-oracle/price-oracle.md)
   * [Protobuf Solidity Generator](implementation/protobuf-solidity-generator.md)
   * [Interactions](implementation/interactions/README.md)
     * [Interaction - Instrument Management](implementation/interactions/untitled.md)
@@ -35,7 +34,6 @@
 
 * [NUTS Token](nuts-token-economy/nuts-token.md)
 * [Escrow as Stake Mining](nuts-token-economy/stake-mining.md)
-* [Untitled](nuts-token-economy/untitled.md)
 
 ## FSP Guidebook
 

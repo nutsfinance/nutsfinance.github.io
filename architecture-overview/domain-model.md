@@ -32,7 +32,7 @@ One Issuance Escrow is created for each issuance. It keeps assets that are locke
 
 ### Issuance Storage
 
-As Instrument is designed to be stateless, issuance data must be kept separately and isolated with each other. Therefore, a dedicated storage is needed for each issuance. The Issuance Storage implementation varies depending on the Instrument Interface implemented. More details about Issuance Storage can be found in section [Instrument Manager](../implementation/instrument-manager/).
+As Instrument is designed to be stateless, issuance data must be kept separately and isolated with each other. Therefore, a dedicated storage is needed for each issuance. The Issuance Storage implementation varies depending on the Instrument Interface implemented. More details about Issuance Storage can be found in section [Instrument Manager](../implementation/instrument-manager.md).
 
 ### Instrument Manager
 
@@ -42,7 +42,7 @@ Instrument Manager is the core of one instrument management domain. There is onl
 * Manage issuance data;
 * Delegate issuance operations to Instrument.
 
-The Instrument Manager implementation varies depending on the Instrument Interface implemented. Usually there is one Instrument Manager implementation for each Instrument Interface. More details about Instrument Manager can be found in section [Instrument Manager](../implementation/instrument-manager/).
+The Instrument Manager implementation varies depending on the Instrument Interface implemented. Usually there is one Instrument Manager implementation for each Instrument Interface. More details about Instrument Manager can be found in section [Instrument Manager](../implementation/instrument-manager.md).
 
 ## Outside Instrument Management Domain
 
