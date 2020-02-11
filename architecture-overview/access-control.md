@@ -6,13 +6,13 @@ The diagram below depicts the access control topology in NUTS Platform. In short
 
 ## NUTS Platform to FSP
 
-NUTS Platform controls FSPs' access via NUTS token. When creating new financial instrument, FSPs are required to deposit certain amount of NUTS token. These NUTS tokens are returned when the financial instruments are deactivated.
+NUTS Platform controls FSPs' access via NUTS token. When creating new financial instrument, FSPs are required to deposit certain amount of NUTS token. The deposited NUTS tokens are burned when the financial instruments are deactivated.
 
 NUTS token deposit and return are implemented in Instrument Registry.
 
 ## NUTS Platform to Maker
 
-NUTS Platform controls makers' access via NUTS token. When creating new issuance of existing financial instruments, makers are required to deposit certain amount of NUTS token. These NUTS tokens are returned when the issuance enters INACTIVE state. No operation is allowed once an issuance enters INACTIVE state.
+NUTS Platform controls makers' access via NUTS token. When creating new issuance of existing financial instruments, makers are required to deposit certain amount of NUTS token. The deposited NUTS tokens are burned when the issuance enters INACTIVE state. No operation is allowed once an issuance enters INACTIVE state.
 
 NUTS token deposit and return are implemented in Instrument Manager.
 
