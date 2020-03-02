@@ -4,7 +4,7 @@ description: >-
   interests with company share performance.
 ---
 
-# ACoconut - ESOP Contract
+# ESOP Instrument
 
 ## Use Case Description
 

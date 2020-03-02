@@ -4,7 +4,7 @@ description: >-
   flexible option and offered at a discount among selected private investors.
 ---
 
-# ACoconut - PIPE Contract
+# PIPE Instrument
 
 ## Use Case Description
 

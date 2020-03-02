@@ -39,15 +39,13 @@
 
 * [Principals](fsp-guidebook/principals.md)
 * [Use Cases](fsp-guidebook/use-cases/README.md)
-  * [ACoconut - Loan Contract](fsp-guidebook/use-cases/use-case-loan-contract.md)
-  * [ACoconut - Lockup Contract](fsp-guidebook/use-cases/acoconut-lockup-contract.md)
-  * [ACoconut - PIPE Contract](fsp-guidebook/use-cases/acoconut-pipe-contract.md)
-  * [ACoconut - ESOP Contract](fsp-guidebook/use-cases/acoconut-esop-contract.md)
+  * [Loan Instrument](fsp-guidebook/use-cases/use-case-loan-contract.md)
+  * [Lockup Instrument](fsp-guidebook/use-cases/acoconut-lockup-contract.md)
+  * [PIPE Instrument](fsp-guidebook/use-cases/acoconut-pipe-contract.md)
+  * [ESOP Instrument](fsp-guidebook/use-cases/acoconut-esop-contract.md)
 
 ## Appendix
 
 * [FAQ](appendix/faq.md)
-* [Terminology](appendix/appendix-a-key-terms.md)
-* [Reference](appendix/reference.md)
-* [Changelog](appendix/changelog.md)
+* [Glossary](appendix/appendix-a-key-terms.md)
 
