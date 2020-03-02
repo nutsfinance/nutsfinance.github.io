@@ -37,7 +37,7 @@
 
 ## FSP Guidebook
 
-* [Principals](fsp-guidebook/principals.md)
+* [Principles](fsp-guidebook/principals.md)
 * [Use Cases](fsp-guidebook/use-cases/README.md)
   * [Loan Instrument](fsp-guidebook/use-cases/use-case-loan-contract.md)
   * [Lockup Instrument](fsp-guidebook/use-cases/acoconut-lockup-contract.md)
