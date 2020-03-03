@@ -30,11 +30,6 @@
 * [Platform Upgrade](platform-upgrade.md)
 * [API Reference](api-reference.md)
 
-## NUTS Token Economy
-
-* [NUTS Token](nuts-token-economy/nuts-token.md)
-* [Escrow as Stake Mining](nuts-token-economy/stake-mining.md)
-
 ## FSP Guidebook
 
 * [Principles](fsp-guidebook/principals.md)
