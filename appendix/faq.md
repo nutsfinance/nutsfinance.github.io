@@ -50,9 +50,11 @@ As we are creating the building blocks to support an open financial system, we a
 
 ## Who are your target users?
 
-Our targeted users are Financial Service Providers \(FSPs\) who are interested in adopting blockchain technology as part of the financial instruments issuance process.
+Our target users include Financial Service Providers \(FSPs\) who are interested in integrating blockchain technology as part of the financial instruments issuance workflow. 
 
-With that being said, we believe blockchain technology enables individuals to compete with financial institutions on a leveled playing field. Hence, our definition of FSPs in the open finance context includes both individuals and businesses.
+Specifically; digital asset lenders, digital asset exchanges and digital asset OTC brokers have specific use cases for our technology solutions.  
+
+Also, please note that our definition of FSPs in the open finance context includes both businesses and individuals; because we believe open source technology empowers individuals to compete with financial institutions on a leveled playing field.
 
 ## Are you targeting crypto FSPs, or traditional FSPs?
 
