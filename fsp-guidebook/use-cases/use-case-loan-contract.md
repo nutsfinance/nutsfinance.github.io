@@ -4,7 +4,7 @@ description: >-
   foundations to earn interests on excess capital.
 ---
 
-# Loan Instrument
+# ACoconut - Loan Contract
 
 ## Use Case Description
 

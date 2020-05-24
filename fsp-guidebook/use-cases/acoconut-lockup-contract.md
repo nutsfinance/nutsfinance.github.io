@@ -4,7 +4,7 @@ description: >-
   and prevents investor sell off.
 ---
 
-# Lockup Instrument
+# ACoconut - Lockup Contract
 
 ## Use Case Description
 

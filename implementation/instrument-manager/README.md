@@ -12,7 +12,17 @@ Instrument Manager is the core of a financial instrument management domain. Its 
 
 As NUTS Platform is targeted to become a general financial instrument platform, it should be able to support financial instrument with various complexity and requirements in security, flexibility, ease of development, and etc. Therefore, NUTS Platform has defined multiple Instrument Interface to model the financial instrument and serve as the interface between Instrument Manager and Instrument.
 
-![](../.gitbook/assets/nuts-platform-v2-instrument-management-domain.jpg)
+![](../../.gitbook/assets/instrument-management-domain-1.jpg)
+
+Currently NUTS Platform supports three Instrument Interface: Instrument Type I, Instrument Type II, and Instrument Type III. Correspondingly, NUTS Platform also provides three Instrument Manager implementation: Instrument Manager Type I, Instrument Manager Type II, and Instrument Manager Type III. Details about these Instrument Managers are discussed in following pages.
+
+| Instrument Type | Type I | Type II | Type III |
+| :--- | :--- | :--- | :--- |
+| Asset Management | Same | Same | Same |
+| Access Control | Same | Same | Same |
+| Data Management | Treats issuance data as a single string | Stores issuance data in a storage contract | Stores issuance data in proxy contract |
+| Security | High | Medium | Low |
+| Scenario | When issuance data is smaller, and implemented by untrusted source. | When issuance data is medium | When issuance data is large and requires more flexibility; suitable for trusted source. |
 
 ## Instrument Interface
 
@@ -22,8 +32,9 @@ Even though there are multiple Interface Interfaces defined, they share the same
 * Engage existing issuance
 * Deposit ETH/ERC20 tokens to existing issuance
 * Withdraw ETH/ERC20 tokens from existing issuance
-* Process custom event \(any event, including events notified by [Timer Oracle](timer-oracle/)\)
-* Get custom data
+* Process scheduled event \(events notified by [Timer Oracle](../timer-oracle.md)\)
+* Process custom event \(any other event triggered by maker/taker\)
+* Renew issuance
 
 ## Instrument Manager Interface
 
@@ -35,8 +46,9 @@ Below are the list of issuance operations defined:
 * Engage existing issuance
 * Deposit ETH/ERC20 tokens to existing issuance
 * Withdraw ETH/ERC20 tokens from existing issuance
-* Process custom event \(any custom event, including events notified by [Timer Oracle](timer-oracle/)\)
-* Get custom data
+* Process scheduled event \(events notified by [Timer Oracle](../timer-oracle.md)\)
+* Process custom event \(any other event triggered by maker/taker\)
+* Renew issuance
 
 In short, there is a one-to-one relationship between Instrument Interface methods and the issuance operations defined in Instrument Manager Interface. Instrument Managers manage data and assets for individual issuance, and delegate the actual issuance operation to Instrument.
 
@@ -56,14 +68,4 @@ Instrument Manager can perform the following assets operations:
 * When makers/transfer withdraws ETH/ERC20 tokens from issuance, Instrument Manager transfers ETH/ERC20 tokens from Issuance Escrow to Instrument Escrow;
 * When certain issuance state is met, issuance might want to change ownership of an asset inside the Issuance Escrow. Instrument Manager complete this on behalf of issuance;
 * When certain issuance state is met, issuance might want to transfer ETH/ERC20 tokens to other accounts. Instrument Manager transfers ETH/ERC20 tokens from Issuance Escrow to Instrument Escrow.
-
-## Issuance Storage
-
-Instrument Manager adopts Proxy contracts to keep issuance data. While traditional Proxy pattern uses Proxy contract to separate logic and storage, Instrument Manager uses Proxy pattern to separate Issuance data.
-
-![](../.gitbook/assets/instrument-v3-1.jpg)
-
-When invoking Instrument methods, Instrument Manager does that through the Proxy contracts which delegates calls to Instrument. Each issuance has a dedicated Proxy which keeps data for that issuance.
-
-Instrument Manager allows any Instrument data layout and is thus more flexible than Instrument Type II. In order to enforce access control, only Instrument Manager can invoke methods on Proxy contracts. It's also subject to reentrancy attack and thus suitable for trusted FSPs.
 
