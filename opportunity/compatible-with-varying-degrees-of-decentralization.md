@@ -1,4 +1,4 @@
-# Customization Compatibility
+# Customization and Compatibility
 
 Existing DeFi protocols are open and accessible; yet building new financial applications on top of native protocols can have its limitations in terms of functional and operational model design. 
 

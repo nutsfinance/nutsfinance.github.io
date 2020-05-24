@@ -5,7 +5,7 @@
   * [Multiple Classes of Financial Instruments](opportunity/issuance-platform-for-multiple-classes-of-financial-instruments/README.md)
     * [Financial Instruments Supported](opportunity/issuance-platform-for-multiple-classes-of-financial-instruments/financial-instruments-supported.md)
   * [Reducing Barriers to Entry](opportunity/reducing-entry-barriers-for-financial-service-providers.md)
-  * [Customization Compatibility](opportunity/compatible-with-varying-degrees-of-decentralization.md)
+  * [Customization and Compatibility](opportunity/compatible-with-varying-degrees-of-decentralization.md)
 * [Architecture Overview](architecture-overview/README.md)
   * [Design Principles](architecture-overview/design-principles.md)
   * [Domain Model](architecture-overview/domain-model.md)
