@@ -29,7 +29,7 @@ Each issuance can define its own lifespan. Once due, the issuance is transitione
 
 ## Engagement Lifecycle  
 
-Takers can engage in existing issuance if the issuance is in Engageable state. Once created, an engagement's lifecycle is independent of its issuance. An issuance does not accept new engagement once it's in Complete state, but the existing engagements are uneffected.
+The right part of the image is the lifecycle of engagements. Takers can engage in existing issuance if the issuance is in Engageable state. Once created, an engagement's lifecycle is independent of its issuance. An issuance does not accept new engagement once it's in Complete state, but the existing engagements are uneffected.
 
 An engagement is in Initiated state once it's created. This allows taker to complete some operations before the engagement becomes Active. Takers cannot cancel an engagement once it's in Active state.
 

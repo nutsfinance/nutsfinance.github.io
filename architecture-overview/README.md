@@ -1,4 +1,4 @@
-# Architecture
+# Overview
 
 There are three actors in NUTS Platform:
 

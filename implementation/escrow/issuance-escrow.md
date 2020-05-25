@@ -1,19 +1,10 @@
 # Issuance Escrow
 
-The Issuance Escrow is created along with individual issuance to keep assets locked by issuance.
+Issuance Escrow, which is one per issuance, helps manages the locked assets for individual issuance. Issuance Escrows only work on ERC20 tokens, as ETH is converted into Wrapped ETH token by Instrument Escrow.
 
-Users/Issuances cannot deposit directly to/withdraw directly from Issuance Escrow; only Instrument Manager can do that. In short, instruments tells Instrument Manager what is the expected transfer to apply, then Instrument Manager complete the transfer on behalf of instrument.
+Instrument can optionally define whether an Issuance Escrow is needed for this instrument. For example, an off-chain order book-based swap does not need an Issuance Escrow as the asset swap could be settled directly on Instrument Escrow. Instrument Escrows are required by default.
 
-For example, assume that an issuance wants to transfer 5 ETH of account A from Issuance Escrow to Instrument Escrow. In its return value, Instrument tells Instrument Manager this desired transfer action to take for the current issuance. Instrument Manager first withdraws 5 ETH from the corresponding Issuance Escrow, and then deposits this 5 ETH into Instrument Escrow. After this transfer, this 5 ETH is under account A's balance in Instrument Escrow, which means account A can withdraw it any time.
+Instrument Manager is the only contract that could operate the assets in Issuance Escrows, while others can only check its balance information. When an asset transfer is needed, the issuance contract will tell Instrument Manager what are the desired asset transfer actions. Instrument Manager performs the actual asset transfer actions.
 
-![](../../.gitbook/assets/escrow-interaction.jpg)
-
-This transfer mechanism allows Instrument to perform asset transfers without taking direct actions to Issuance Escrow. While it's still Instrument's responsibility to ensure the desired transfer is legit, NUTS Platform ensures that Issuance Escrow is tempered with by Instruments.
-
-As a summary, the following functionalities, in addition to the shared functionalities between instrument escrow and issuance escrow, are supported for Instrument Manager:
-
-* Migrate ETH balance from one account to another
-* Migrate ERC20 token balance from one account to another
-
-The later allows Instrument Manager to change the ownership of an asset within an Issuance Escrow.
+Instrument can optionally define whether issuance transaction is supported. If set to true, issuance instance is also granted the admin role of the Instrument Escrow, which means issuance instance can also operates on the assets in Issuance Escrow. This is useful for issuances that want to deposit its locked assets into third-party protocols such as Compound. However, this is only an experimental feature and is not used by existing financial instruments.
 

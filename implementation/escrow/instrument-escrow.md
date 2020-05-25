@@ -1,13 +1,8 @@
 # Instrument Escrow
 
-The Instrument Escrow is created along with the instrument management domain to keep user assets that are not yet locked by issuance.
+Instrument Escrow is the asset portal for an instrument domain. It's the place where users can deposit assets to or withdraw assets from the instrument domain. Since it's the only place where assets can be transferred out of the instrument domain, it provides a strong guarantee that no assets will be loss unless there is critical vulnerability in instrument business logic.
 
-In order to deposit assets to individual issuance, users should deposit assets to Instrument Escrow first, and then invokes NUTS Platform API to transfer assets from Instrument Escrow to Issuance Escrow.
+Users can deposit both ETH and ERC20 tokens into Instrument Escrow. When ETH is deposited, Instrument Escrow uses the Wrapped ETH contract which is global on NUTS Platform to convert ETH into Wrapper ETH token. This allows Instrument Escrow and Issuance Escrow to work on ERC20 tokens only.
 
-The following functionalities, in addition to the shared functionalities between instrument escrow and issuance escrow, are supported for any account:
-
-* Deposit ETH for their own account
-* Withdraw ETH for their own account
-* Deposit ERC20 token for their own account
-* Withdraw ERC20 token for their own account
+Users can also withdraw both ETH and ERC20 tokens from Instrument Escrow. When ETH is withdrawn, Instrument Escrow converts Wrapper ETH token to ETH and sends out ETH.
 

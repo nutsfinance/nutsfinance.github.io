@@ -1,4 +1,4 @@
-# Platform Upgrade
+# Future Enhancement
 
 Key components of NUTS Platform are all upgradeable. NUTS Platform adopts Proxy to support logic upgrade and Protocol Buffer to support data structure upgrade.
 
