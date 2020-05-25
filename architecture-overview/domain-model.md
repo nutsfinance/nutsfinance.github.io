@@ -2,9 +2,9 @@
 description: The domain model of the NUTS platform.
 ---
 
-# Domain Model
+# System Overview
 
-The diagram is an overview of the NUTS Platform domain model.
+The diagram below is an overview of the NUTS Platform domain model.
 
 ![](../.gitbook/assets/domain-model-overview-2.jpg)
 
