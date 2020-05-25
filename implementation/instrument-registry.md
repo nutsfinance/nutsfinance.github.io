@@ -1,27 +1,20 @@
 # Instrument Registry
 
-Instrument Registry serves as the registry for instruments. It's designed to be a light-weight registry that contains minimum information required for instruments and manages NUTS token deposited in activating instruments.
+Instrument Registry serves as the registry for instrument domains. It's a light-weight registry that maintains minimum information for instrument domain creation and lookup.
 
-Below are the main functionalities of Instrument Registry.
+Instrument Registry has the following responsibilities:
 
 ### Activate Financial Instruments
 
-Each financial instrument is a standalone smart contract in Ethereum. After deploying the financial instrument, FSPs need to activate this financial instrument on NUTS Platform.
+As mentioned in section [Instrument](instrument.md), once the instrument contract is deployed, FSPs can activate this instrument on NUTS Platform in Instrument Registry. Below is the activation process:
 
-A certain amount of NUTS token, called instrument deposit, is needed in activating financial instrument.
+1. Instrument Registry queries Config to get the Instrument Manager Factory;
+2. Instrument Registry calls Instrument Manager Factory to create a new instrument domain for this instrument;
+3. Instrument Registry assigns a new ID for the instrument.
 
-In activating financial instruments, Instrument Registry delegates Instrument Manager Factory to create a new instrument management domain for each instrument. One instrument can only be activated once in NUTS Platform.
-
-### Deactivate Financial Instruments
-
-FSPs can deactivate a financial instrument activated by themselves. After deactivating, a financial instrument can no create any new issuance, and the deposited NUTS token is returned to FSP.
+During the activation process, FSPs might be required to deposit NUTS tokens which are burned when the instrument is deactivated. The amount of NUTS token to deposit is configured in the Config.
 
 ### Lookup Financial Instruments
 
-Instrument Registry supports looking up instrument management domain by financial instrument. Each instrument management domain has two entries points:
-
-* Instrument Manager Interface, which serves as the portal for issuance operation;
-* Instrument Escrow Interface, which serves as the portal for instrument assets.
-
-As each financial instrument can be activated in NUTS Platform for at most once, Instrument Registry supports address lookup for both Instrument Manager Interface and Instrument Escrow Interface using financial instrument address.
+Instrument Registry supports looking up instrument domain by instrument ID. Since the Instrument Manager is the portal for the instrument domain, the lookup method simply returns the address of the Instrument Manager.
 
