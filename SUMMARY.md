@@ -22,7 +22,7 @@
   * [Timer Oracle](implementation/timer-oracle.md)
   * [Protobuf Solidity Generator](implementation/protobuf-solidity-generator.md)
 * [Instruments](instruments.md)
-* [Future Enhancement](platform-upgrade.md)
+* [Future Upgrade](platform-upgrade.md)
 * [Appendix](api-reference/README.md)
   * [API Reference](api-reference/api-reference.md)
   * [Interactions](api-reference/interactions.md)

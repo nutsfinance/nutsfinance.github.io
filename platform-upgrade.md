@@ -1,32 +1,24 @@
-# Future Enhancement
+# Future Upgrade
 
-Key components of NUTS Platform are all upgradeable. NUTS Platform adopts Proxy to support logic upgrade and Protocol Buffer to support data structure upgrade.
+NUTS Platform is expected to evolve and upgrade in the future. It's flexible and extensible in design. Below are some upgrade scenarios.
 
-Proxy and external storage are two most widely adopted upgrade mechanism. NUTS Platform favors proxy over external storage due the following reasons:
+## Upgrade of Existing Instrument Domain
 
-* With external storage contract, each upgrade introduces a new Ethereum address. This indicates updating all contracts that have access to the upgraded contract. The customer-facing DApp also need to update to the new logic contract address;
-* The permission update will be a pain. In case the logic contract has access permission to lots of other smart contracts, updating the logic contract with external storage requires handing over all its permissions to the new logic contract;
-* External storage contract is not flexible and it requires lots of logic change. For example, it provides a generic key-value mapping for all types but does not work well with arrays.
+Existing instrument domains are not upgradeable. They are expected to be stable once activated. If there is any vulnerability found in existing instruments, FSPs could deactivate the instrument to prevent newer issuances from being created.
 
-## Upgrading Instrument Management Domain
+## Upgrade of Escrows
 
-![](.gitbook/assets/instrument-management-domain-upgrade.jpg)
+The Escrows for new instrument domains can be upgraded. As both Instrument Escrow and Issuance Escrow are created by Escrow Factory while the Escrow Factory address is stored in Config, NUTS Platform could deploy a newer version of Escrow Factory and then update its address in Config.
 
-Instrument Manager, Instrument Escrow and Issuance Escrow are all fronted with Proxies. This means that their logic are always upgradeable. Currently only NUTS Platform admin can perform the upgrade, but the decision-making might become more decentralized in the future.
+Please note that this upgrade only affects new instrument domains created after the upgrade. For existing instrument domains, as they have persisted the Escrow Factory address locally, they are still using the old Escrow Factory to create new Issuance Escrows.
 
-Instrument is not upgradeable. It defined the business logic of a financial instrument and must be final once activated. If FSPs want to introduce new business logic, it should be deployed as a new smart contract and activated as a new financial instrument.
+## Upgrade of Instrument Managers
 
-Issuance Storage is not upgradeable. They are designed to be lightweight, and helps separating logic and data.
+The Instrument Manager for new instrument domains can be upgraded. Config maintains different versions of Instrument Manager Factories as a mapping. In activating new instruments, FSPs should specify the version of Instrument Manager to use.
 
-## Upgrading Instrument Manager Factory
+When a new version of Instrument Manager is implemented, NUTS Platform admins could deploy its corresponding Instrument Manager Factory contract and updates its address in Config.
 
-![](.gitbook/assets/upgrade-others.jpg)
+## Upgrade of Instrument Registry
 
-If any key components require an upgrade on their logic, or a new type of Instrument Interface is defined \(e.g. Instrument V4\), then Instrument Manager Factory needs to be upgraded as well as it encapsulates all the complexities of creating Instrument Management Domain.
-
-Instrument Manager Factory does not require a Proxy as it's stateless in its nature. After a new Instrument Manager Factory is deployed to Ethereum, Instrument Registry only need to update its reference to the new Instrument Manager Factory.
-
-## Upgrading Instrument Registry, Deposit Escrow and NUTS Token
-
-Instrument Registry, Deposit Escrow and NUTS Token are all fronted by Proxy and thus all upgradeable. Only NUTS Platform admin can perform the upgrade.
+Currently, Instrument Registry is not upgradeable. As Instrument Registry is very light-weight, it does not expect any upgrade in the near future. However, when an upgrade is required, NUTS Platform admins are likely to deploy the newer Instrument Registry and replace the existing one. Users can continue to use the existing Instrument Registry and its existing instrument domains are not affected. We expect to use ENS to reduce the user friction caused by the Instrument Registry upgrade in the future.
 
