@@ -18,5 +18,5 @@ Timer Oracle monitors all issuance instances and keeps track of the emitted sche
 * The event is indeed notifier after the desired timestamp/block number;
 * The event is not handled multiple times.
 
-Please note that there is no Timer Oracle role on NUTS Platform. The Timer Oracle can be treated as a normal user to NUTS Platform. Therefore, anyone could notify the scheduled event. The purpose of the Timer Oracle is to remove the need of FSP/maker/taker to implement their own monitors.
+Please note that there is no Timer Oracle role on NUTS Platform. The Timer Oracle can be treated as a normal user to NUTS Platform. Therefore, anyone could notify the scheduled event. The purpose of the Timer Oracle is to remove the need of Service Provider/maker/taker to implement their own monitors.
 

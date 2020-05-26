@@ -8,7 +8,7 @@ For all DeFi projects, security is paramount and is often the deciding factor of
 
 In order to serve as a DeFi platform to host extensive financial instruments, NUTS Platform must treat security as the topmost concern. The following principals are applied to ensure security of NUTS Platform:
 
-* Assets in different financial instruments are strictly isolated. Each financial instrument has its own asset domain and asset domains are isolated from each other. If one financial instrument is broken\(e.g. due to instrument code vulnerability or FSP key loss\), users' assets in other instruments or they own wallet should not be impacted.
+* Assets in different financial instruments are strictly isolated. Each financial instrument has its own asset domain and asset domains are isolated from each other. If one financial instrument is broken\(e.g. due to instrument code vulnerability or Service Provider key loss\), users' assets in other instruments or they own wallet should not be impacted.
 * Assets in different issuances of the same financial instruments are relatively isolated. In one asset domain, assets from different issuances are isolated. Participants of one issuance cannot operate on the assets of another issuance of the same instrument.
 * Users' assets should not be transferred into an asset domain without explicit user action. Users must manually deposit their assets in order to participate in the financial instrument. NUTS Platform should not touch any asset outside individual asset domains.
 * Users' assets in a financial instrument's asset domain can be operated only through NUTS Platform services. If NUTS Platform services are proven to be secure, all assets locked in its asset domains are secure as well.

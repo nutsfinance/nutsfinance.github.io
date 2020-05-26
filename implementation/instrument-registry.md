@@ -6,13 +6,13 @@ Instrument Registry has the following responsibilities:
 
 ### Activate Financial Instruments
 
-As mentioned in section [Instrument](instrument.md), once the instrument contract is deployed, FSPs can activate this instrument on NUTS Platform in Instrument Registry. Below is the activation process:
+As mentioned in section [Instrument](instrument.md), once the instrument contract is deployed, Service Providers can activate this instrument on NUTS Platform in Instrument Registry. Below is the activation process:
 
 1. Instrument Registry queries Config to get the Instrument Manager Factory;
 2. Instrument Registry calls Instrument Manager Factory to create a new instrument domain for this instrument;
 3. Instrument Registry assigns a new ID for the instrument.
 
-During the activation process, FSPs might be required to deposit NUTS tokens which are burned when the instrument is deactivated. The amount of NUTS token to deposit is configured in the Config.
+During the activation process, Service Providers might be required to deposit NUTS tokens which are burned when the instrument is deactivated. The amount of NUTS token to deposit is configured in the Config.
 
 ### Lookup Financial Instruments
 

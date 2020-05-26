@@ -6,16 +6,16 @@ This image below shows the complete lifecycle of instrument, issuance and engage
 
 ## Instrument Lifecycle
 
-The left part of the image is the lifecycle of instruments. Instruments are activated on NUTS Platform by FSPs and defines a single asset domain.
+The left part of the image is the lifecycle of instruments. Instruments are activated on NUTS Platform by Service Providers and defines a single asset domain.
 
 Once an instrument is activated, makers can create new issuance based on the instrument. No new issuance is created once the instrument is deactivated.
 
-There are two approaches to deactivate an instrument: manually and automatic. In activating a financial instrument, FSP could specify two parameters:
+There are two approaches to deactivate an instrument: manually and automatic. In activating a financial instrument, Service Provider could specify two parameters:
 
-* Instrument override timestamp, which means when the FSP who activates the instrument can deactivate the instrument manually. If FSP wants to deactivate an instrument any time, they can simply specify a small value. Otherwise, if FSP wants no one to manually deactivate the instrument, they can specify an arbitrarily large value.
-* Instrument termination timestamp, which means when the instrument is deactivated automatically. If FSP doesn't want the instrument to deactivate automatically, they can provide an arbitrarily large value.
+* Instrument override timestamp, which means when the Service Provider who activates the instrument can deactivate the instrument manually. If Service Provider wants to deactivate an instrument any time, they can simply specify a small value. Otherwise, if Service Provider wants no one to manually deactivate the instrument, they can specify an arbitrarily large value.
+* Instrument termination timestamp, which means when the instrument is deactivated automatically. If Service Provider doesn't want the instrument to deactivate automatically, they can provide an arbitrarily large value.
 
-In activating new instruments, FSP might be required to deposit certain NUTS token as part of the instrument activation process. The number of NUTS token to deposit is a global configuration parameter of NUTS Platform. When the instrument is deactivated, the deposit token, if there is any, will be burned.
+In activating new instruments, Service Provider might be required to deposit certain NUTS token as part of the instrument activation process. The number of NUTS token to deposit is a global configuration parameter of NUTS Platform. When the instrument is deactivated, the deposit token, if there is any, will be burned.
 
 ## Issuance Lifecycle
 
