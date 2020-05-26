@@ -22,3 +22,9 @@ When a new version of Instrument Manager is implemented, NUTS Platform admins co
 
 Currently, Instrument Registry is not upgradeable. As Instrument Registry is very light-weight, it does not expect any upgrade in the near future. However, when an upgrade is required, NUTS Platform admins are likely to deploy the newer Instrument Registry and replace the existing one. Users can continue to use the existing Instrument Registry and its existing instrument domains are not affected. We expect to use ENS to reduce the user friction caused by the Instrument Registry upgrade in the future.
 
+## Upgrade of Instrument/Issuance
+
+Theoretically, FSPs could upgrade their existing instrument and issuance contracts as they have the full control of the instrument/issuance implementation. However, this is highly discouraged as instrument domain should be immutable once created.
+
+, 
+

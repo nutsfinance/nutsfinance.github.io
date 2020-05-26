@@ -29,7 +29,7 @@ As a DeFi instrument platform, NUTS Platform should be flexible and extensible i
 * Financial instrument developers should be able to implement new instruments with ease. Therefore, the domain model must be able to cover both current and future instrument requirement.
 * NUTS Platform developers should be able to add new platform functionalities with ease. This requires NUTS Platform architecture to be flexible for future enhancement without migrating to a new platform unless it's essential.
 
-## Efficient
+## Efficiency
 
 Blockchain operations come with cost as miners are paid to maintain the integrity and liveness of the blockchain. As users need to pay for their transactions in NUTS Platform, NUTS Platform should be gas efficient to reduce user friction.
 
