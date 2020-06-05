@@ -18,23 +18,50 @@ The image below shows the lifecycle of Multi-Swap issuance and engagement.
 * When maker cancels an Engageable multi-swap issuance and there is no engagement, the multi-swap issuance becomes Cancelled and the deposited input token is returned;
 * When the multi-swap issuance is due, the multi-swap is Complete and remaining input tokens are returned.
 
-## Multi-Swap Issuance Maker Parameters
+## Multi-Swap Parameters
 
-The multi-swap issuance defines a set of maker parameters which allows makers to customize the multi-swap issuance:
+The multi-swap instrument is highly customizable. It defines a set of parameters which allows both Service providers and makers to customize the multi- instrument and its issuances.
 
-* Input token address
-* Input amount
-* Output token address
-* Output amount
-* Duration: The duration of the swap issuance. Should between 2 to 90 days
+### Multi-Swap Service Provider Parameters
 
-## Multi-Swap Issuance Custom Property
+The following parameters allow Service Provider to customize the multi-swap instrument. They are all defined in the multi-swap instrument contract.
+
+| Multi-Swap Instrument Parameter | Description |
+| :--- | :--- |
+| Max issuance duration | Maximum duration of the issuance in seconds |
+| Min issuance duration | Minimum duration of the issuance in seconds |
+| Max engagement output amount | Maximum output amount for individual engagement |
+| Min engagement output amount | Minimum output amount for individual engagement |
+
+### Multi-Swap Maker Parameters
+
+The following parameters allow makers to customize the multi-swap issuance. They are defined as the maker data in creating new multi-swap issuance.
+
+| Multi-Swap Issuance Parameter | Description |
+| :--- | :--- |
+| Issuance end timestamp | When the swap issuance is due |
+| Input token address |  |
+| Input amount |  |
+| Output token address |  |
+| Output amount |  |
+
+### Multi-Swap Taker Parameters
+
+The following parameter allows takers to customize the multi-swap engagement. They are defined as taker data in engaging multi-swap issuance.
+
+| Multi-Swap Engagement Parameter | Description |
+| :--- | :--- |
+| Engagement output amount | The amount of output token in this engagement |
+
+## Multi-Swap Custom Property
+
+### Multi-Swap Issuance Custom Property
 
 The multi-swap issuance defines a set of custom property. It includes all the maker parameters shown in the previous section with the addition of one field:
 
 * Remaining input token: The amount of input token remaining in the Issuance Escrow
 
-## Multi-Swap Engagement Custom Property
+### Multi-Swap Engagement Custom Property
 
 The multi-swap engagement defines the following custom property:
 

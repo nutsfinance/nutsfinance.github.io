@@ -16,25 +16,49 @@ The image below shows the lifecycle of borrowing issuance and engagement.
 * When taker deposits the principal token, the engagement is Active and the principal token is transferred to maker;
 * When the borrowing engagement is due or maker repays in full\(principal + interest\), the engagement becomes Complete. Borrowing issuance defines a borrowing-specific engagement property to determine whether it's Complete as it's due or repaid.
 
-## Borrowing Issuance Maker Parameters
+## Borrowing Parameters
 
-The borrowing issuance defines a set of maker parameters which allows makers to customize the borrowing issuance:
+The borrowing instrument is highly customizable. It defines a set of parameters which allows both Service providers and makers to customize the borrowing instrument and its issuances.
 
-* Borrowing token address
-* Borrowing amount
-* Collateral token address
-* Collateral ratio: The ratio of collateral to principal. Should between 50% and 200%;
-* Tenor: The duration of the borrowing engagement. Should between 2 to 90 days;
-* Interest rate: The per day interest rate to pay in principal. Should between 0.0001% to 0.0010%.
+### Borrowing Service Provider Parameters
 
-## Borrowing Issuance Custom Property
+The following parameters allow Service Provider to customize the borrowing instrument. They are all defined in the borrowing instrument contract.
+
+| Borrowing Instrument Parameter | Description |
+| :--- | :--- |
+| Max issuance duration | Maximum life of the issuance in seconds |
+| Min issuance duration | Minimum life of the issuance in seconds |
+| Max tenor | Maximum life of the engagement in seconds |
+| Min tenor | Minimum life of the engagement in seconds |
+| Max collateral ratio | Maximum collateral ratio with 4 decimals\(0.01%\) |
+| Min collateral ratio | Minimum collateral ratio with 4 decimals\(0.01%\) |
+| Max interest rate | Maximum interest rate with 6 decimals\(0.0001%\) |
+| Min interest rate | Minimum interest rate with 6 decimals\(0.0001%\) |
+
+### Borrowing Maker Parameters
+
+The following parameters allow makers to customize the lending issuance. They are defined as the maker data in creating new lending issuance.
+
+| Borrowing Issuance Parameters | Description |
+| :--- | :--- |
+| Issuance end timestamp | When is the lending issuance due |
+| Lending token address |  |
+| Lending amount |  |
+| Collateral token address |  |
+| Collateral ratio | The ratio of collateral to principal |
+| Tenor | The duration of engagement in seconds |
+| Interest rate | The per day interest rate to pay in principal |
+
+## Borrowing Custom Property
+
+### Borrowing Issuance Custom Property
 
 The borrowing issuance defines a set of custom property. It includes all the maker parameters shown in the previous section with the following additional fields:
 
 * Collateral amount:  The actual collateral amount deposited. For borrowing engagement, the actual collateral value is computed at the time of issuance creation using the price oracle. Therefore, it's part of the borrowing issuance property.
 * Interest amount: The computed interest amount to pay
 
-## Borrowing Engagement Custom Property
+### Borrowing Engagement Custom Property
 
 The borrowing engagement also defines a set of custom properties.
 

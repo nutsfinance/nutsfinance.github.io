@@ -17,21 +17,38 @@ The image below shows the lifecycle of swap issuance and engagement.
   * The input token is transferred to taker and the output token is transferred to maker
 * When maker cancels an Engageable swap issuance, the swap issuance becomes Cancelled and the deposited input token is returned.
 
-## Swap Issuance Maker Parameters
+## Swap Parameters
 
-The swap issuance defines a set of maker parameters which allows makers to customize the swap issuance:
+The swap instrument is highly customizable. It defines a set of parameters which allows both Service providers and makers to customize the swap instrument and its issuances.
 
-* Input token address
-* Input amount
-* Output token address
-* Output amount
-* Duration: The duration of the swap issuance. Should between 2 to 90 days
+### Swap Service Provider Parameters
 
-## Swap Issuance Custom Property
+The following parameters allow Service Provider to customize the swap instrument. They are all defined in the swap instrument contract.
+
+| Swap Instrument Parameter | Description |
+| :--- | :--- |
+| Max issuance duration | Maximum duration of the issuance in seconds |
+| Min issuance duration | Minimum duration of the issuance in seconds |
+
+### Swap Maker Parameters
+
+The following parameters allow makers to customize the swap issuance. They are defined as the maker data in creating new swap issuance.
+
+| Swap Issuance Parameter | Description |
+| :--- | :--- |
+| Issuance end timestamp | When the swap issuance is due |
+| Input token address |  |
+| Input amount |  |
+| Output token address |  |
+| Output amount |  |
+
+## Swap Custom Property
+
+### Swap Issuance Custom Property
 
 The swap issuance defines a set of custom property. It includes all the maker parameters shown in the previous section.
 
-## Swap Engagement Custom Property
+### Swap Engagement Custom Property
 
 The swap engagement does not define any custom property.
 
