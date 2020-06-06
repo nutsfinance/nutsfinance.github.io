@@ -26,12 +26,12 @@ The multi-swap instrument is highly customizable. It defines a set of parameters
 
 The following parameters allow Service Provider to customize the multi-swap instrument. They are all defined in the multi-swap instrument contract.
 
-| Multi-Swap Instrument Parameter | Description |
-| :--- | :--- |
-| Max issuance duration | Maximum duration of the issuance in seconds |
-| Min issuance duration | Minimum duration of the issuance in seconds |
-| Max engagement output amount | Maximum output amount for individual engagement |
-| Min engagement output amount | Minimum output amount for individual engagement |
+| Multi-Swap Instrument Parameter | Description | Default |
+| :--- | :--- | :--- |
+| Max issuance duration | Maximum duration of the issuance in seconds | 90 days |
+| Min issuance duration | Minimum duration of the issuance in seconds | 2 days |
+| Max engagement output amount | Maximum output amount for individual engagement | uint\(-1\) |
+| Min engagement output amount | Minimum output amount for individual engagement | 0 |
 
 ### Multi-Swap Maker Parameters
 
@@ -39,7 +39,7 @@ The following parameters allow makers to customize the multi-swap issuance. They
 
 | Multi-Swap Issuance Parameter | Description |
 | :--- | :--- |
-| Issuance end timestamp | When the swap issuance is due |
+| Issuance duration | The duration of issuance in seconds |
 | Input token address |  |
 | Input amount |  |
 | Output token address |  |

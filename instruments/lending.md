@@ -24,16 +24,16 @@ The lending instrument is highly customizable. It defines a set of parameters wh
 
 The following parameters allow Service Provider to customize the lending instrument. They are all defined in the lending instrument contract.
 
-| Lending Instrument Parameter | Description |
-| :--- | :--- |
-| Max issuance duration | Maximum life of the issuance in seconds |
-| Min issuance duration | Minimum life of the issuance in seconds |
-| Max tenor | Maximum life of the engagement in seconds |
-| Min tenor | Minimum life of the engagement in seconds |
-| Max collateral ratio | Maximum collateral ratio with 4 decimals\(0.01%\) |
-| Min collateral ratio | Minimum collateral ratio with 4 decimals\(0.01%\) |
-| Max interest rate | Maximum interest rate with 6 decimals\(0.0001%\) |
-| Min interest rate | Minimum interest rate with 6 decimals\(0.0001%\) |
+| Lending Instrument Parameter | Description | Default |
+| :--- | :--- | :--- |
+| Max issuance duration | Maximum life of the issuance in seconds | 14 days |
+| Min issuance duration | Minimum life of the issuance in seconds | 0 |
+| Max tenor | Maximum life of the engagement in seconds | 90 days |
+| Min tenor | Minimum life of the engagement in seconds | 2 days |
+| Max collateral ratio | Maximum collateral ratio with 4 decimals\(0.01%\) | 200% |
+| Min collateral ratio | Minimum collateral ratio with 4 decimals\(0.01%\) | 50% |
+| Max interest rate | Maximum interest rate with 6 decimals\(0.0001%\) | 5.0000% |
+| Min interest rate | Minimum interest rate with 6 decimals\(0.0001%\) | 0.0010% |
 
 ### Lending Maker Parameters
 
@@ -41,7 +41,7 @@ The following parameters allow makers to customize the lending issuance. They ar
 
 | Lending Issuance Parameters | Description |
 | :--- | :--- |
-| Issuance end timestamp | When is the lending issuance due |
+| Issuance duration | Duration of the issuance in seconds |
 | Lending token address |  |
 | Lending amount |  |
 | Collateral token address |  |

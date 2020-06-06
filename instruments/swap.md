@@ -25,10 +25,10 @@ The swap instrument is highly customizable. It defines a set of parameters which
 
 The following parameters allow Service Provider to customize the swap instrument. They are all defined in the swap instrument contract.
 
-| Swap Instrument Parameter | Description |
-| :--- | :--- |
-| Max issuance duration | Maximum duration of the issuance in seconds |
-| Min issuance duration | Minimum duration of the issuance in seconds |
+| Swap Instrument Parameter | Description | Default |
+| :--- | :--- | :--- |
+| Max issuance duration | Maximum duration of the issuance in seconds | 90 days |
+| Min issuance duration | Minimum duration of the issuance in seconds | 2 days |
 
 ### Swap Maker Parameters
 
@@ -36,7 +36,7 @@ The following parameters allow makers to customize the swap issuance. They are d
 
 | Swap Issuance Parameter | Description |
 | :--- | :--- |
-| Issuance end timestamp | When the swap issuance is due |
+| Issuance duration | The duration of issuance in seconds |
 | Input token address |  |
 | Input amount |  |
 | Output token address |  |
