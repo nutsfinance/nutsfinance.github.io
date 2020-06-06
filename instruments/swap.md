@@ -27,8 +27,8 @@ The following parameters allow Service Provider to customize the swap instrument
 
 | Swap Instrument Parameter | Description | Default |
 | :--- | :--- | :--- |
-| Max issuance duration | Maximum duration of the issuance in seconds | 90 days |
-| Min issuance duration | Minimum duration of the issuance in seconds | 2 days |
+| Max issuance duration | Maximum duration of the issuance in seconds | 14 days |
+| Min issuance duration | Minimum duration of the issuance in seconds | 0 |
 
 ### Swap Maker Parameters
 

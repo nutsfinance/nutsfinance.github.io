@@ -30,8 +30,6 @@ The following parameters allow Service Provider to customize the multi-swap inst
 | :--- | :--- | :--- |
 | Max issuance duration | Maximum duration of the issuance in seconds | 90 days |
 | Min issuance duration | Minimum duration of the issuance in seconds | 2 days |
-| Max engagement output amount | Maximum output amount for individual engagement | uint\(-1\) |
-| Min engagement output amount | Minimum output amount for individual engagement | 0 |
 
 ### Multi-Swap Maker Parameters
 
@@ -44,6 +42,8 @@ The following parameters allow makers to customize the multi-swap issuance. They
 | Input amount |  |
 | Output token address |  |
 | Output amount |  |
+| Max engagement output amount | Maximum output amount for individual engagement |
+| Min engagement output amount | Minimum output amount for individual engagement |
 
 ### Multi-Swap Taker Parameters
 
