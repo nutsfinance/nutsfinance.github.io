@@ -28,8 +28,8 @@ The following parameters allow Service Provider to customize the lending instrum
 | :--- | :--- | :--- |
 | Max issuance duration | Maximum life of the issuance in seconds | 14 days |
 | Min issuance duration | Minimum life of the issuance in seconds | 0 |
-| Max tenor | Maximum life of the engagement in seconds | 90 days |
-| Min tenor | Minimum life of the engagement in seconds | 2 days |
+| Max tenor days | Maximum life of the engagement in days | 90 |
+| Min tenor days | Minimum life of the engagement in days | 2 |
 | Max collateral ratio | Maximum collateral ratio with 4 decimals\(0.01%\) | 200% |
 | Min collateral ratio | Minimum collateral ratio with 4 decimals\(0.01%\) | 50% |
 | Max interest rate | Maximum interest rate with 6 decimals\(0.0001%\) | 5.0000% |
