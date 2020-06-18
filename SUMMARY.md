@@ -20,6 +20,7 @@
   * [Config](implementation/config.md)
   * [Instrument Registry](implementation/instrument-registry.md)
   * [Timer Oracle](implementation/timer-oracle.md)
+  * [Price Oracle](implementation/price-oracle.md)
   * [Protobuf Solidity Generator](implementation/protobuf-solidity-generator.md)
 * [Instruments](instruments/README.md)
   * [Lending](instruments/lending.md)
