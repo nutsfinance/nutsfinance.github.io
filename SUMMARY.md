@@ -32,11 +32,6 @@
   * [API Reference](api-reference/api-reference.md)
   * [Interactions](api-reference/interactions.md)
 
-## NUTS Token Economy
-
-* [NUTS Token](nuts-token-economy/nuts-token.md)
-* [Escrow as Stake Mining](nuts-token-economy/stake-mining.md)
-
 ## FSP Guidebook
 
 * [Principals](fsp-guidebook/principals.md)
@@ -49,7 +44,5 @@
 ## Appendix
 
 * [FAQ](appendix/faq.md)
-* [Terminology](appendix/appendix-a-key-terms.md)
-* [Reference](appendix/reference.md)
 * [Changelog](appendix/changelog.md)
 
